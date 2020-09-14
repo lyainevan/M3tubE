@@ -7,4 +7,5 @@ import CFDrawer from "./components/Drawer";
 import Configure from "./components/screens/Configure";
 import { StatusBar } from "expo-status-bar";
 
-export type Ro
+export type RootDrawerParamList = {
+    
