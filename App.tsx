@@ -5,4 +5,6 @@ import Home from "./components/screens/Home";
 import Theme from "./modules/theme";
 import CFDrawer from "./components/Drawer";
 import Configure from "./components/screens/Configure";
-import { StatusBar } from "exp
+import { StatusBar } from "expo-status-bar";
+
+export type Ro
