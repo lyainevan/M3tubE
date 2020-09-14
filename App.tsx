@@ -4,4 +4,4 @@ import { observer } from "mobx-react-lite";
 import Home from "./components/screens/Home";
 import Theme from "./modules/theme";
 import CFDrawer from "./components/Drawer";
-import Configure fr
+import Configure from "./components/screens/Configure
