@@ -9,4 +9,7 @@ import { StatusBar } from "expo-status-bar";
 
 export type RootDrawerParamList = {
     Home: {};
-    "Manage Sources": {
+    "Manage Sources": {};
+};
+
+const Drawer = createDrawer
