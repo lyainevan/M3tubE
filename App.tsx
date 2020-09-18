@@ -15,4 +15,5 @@ export type RootDrawerParamList = {
 const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const App = observer(() => {
-    retur
+    return (
+        <NavigationCon
