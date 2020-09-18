@@ -16,4 +16,5 @@ const Drawer = createDrawerNavigator<RootDrawerParamList>();
 
 const App = observer(() => {
     return (
-        <NavigationCon
+        <NavigationContainer>
+            <Draw
