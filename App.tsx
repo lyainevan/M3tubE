@@ -12,4 +12,4 @@ export type RootDrawerParamList = {
     "Manage Sources": {};
 };
 
-const Drawer = createDrawer
+const Drawer = createDrawerNavigator<RootDrawe
