@@ -18,4 +18,5 @@ const App = observer(() => {
     return (
         <NavigationContainer>
             <Drawer.Navigator
-                
+                initialRouteName="Home"
+   
