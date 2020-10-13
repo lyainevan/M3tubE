@@ -19,4 +19,5 @@ const App = observer(() => {
         <NavigationContainer>
             <Drawer.Navigator
                 initialRouteName="Home"
-                defau
+                defaultStatus="closed"
+             
