@@ -20,4 +20,4 @@ const App = observer(() => {
             <Drawer.Navigator
                 initialRouteName="Home"
                 defaultStatus="closed"
-             
+                drawerContent={(props:
