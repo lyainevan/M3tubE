@@ -21,4 +21,5 @@ const App = observer(() => {
                 initialRouteName="Home"
                 defaultStatus="closed"
                 drawerContent={(props: any) => <CFDrawer {...props}></CFDrawer>}
-          
+                screenOptions={{
+     
