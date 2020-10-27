@@ -22,4 +22,4 @@ const App = observer(() => {
                 defaultStatus="closed"
                 drawerContent={(props: any) => <CFDrawer {...props}></CFDrawer>}
                 screenOptions={{
-     
+                    header
