@@ -24,4 +24,5 @@ const App = observer(() => {
                 screenOptions={{
                     headerShown: false,
                     drawerPosition: "left",
-                    drawerS
+                    drawerStyle: {
+          
