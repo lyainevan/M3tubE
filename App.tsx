@@ -23,4 +23,4 @@ const App = observer(() => {
                 drawerContent={(props: any) => <CFDrawer {...props}></CFDrawer>}
                 screenOptions={{
                     headerShown: false,
-               
+                    drawerPosition: "l
