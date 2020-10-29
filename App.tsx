@@ -25,4 +25,5 @@ const App = observer(() => {
                     headerShown: false,
                     drawerPosition: "left",
                     drawerStyle: {
-                        backgroundColor: Theme.col
+                        backgroundColor: Theme.color.dark,
+                    
