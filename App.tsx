@@ -26,4 +26,5 @@ const App = observer(() => {
                     drawerPosition: "left",
                     drawerStyle: {
                         backgroundColor: Theme.color.dark,
-                    
+                    },
+                    drawerAct
