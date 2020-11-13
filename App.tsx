@@ -28,4 +28,4 @@ const App = observer(() => {
                         backgroundColor: Theme.color.dark,
                     },
                     drawerActiveBackgroundColor: "#212121",
-              
+                    drawerItemStyle: {
