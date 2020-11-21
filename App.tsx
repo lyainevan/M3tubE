@@ -29,4 +29,5 @@ const App = observer(() => {
                     },
                     drawerActiveBackgroundColor: "#212121",
                     drawerItemStyle: {
-                        paddingL
+                        paddingLeft: 8,
+                       
