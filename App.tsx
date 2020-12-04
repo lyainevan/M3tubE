@@ -32,4 +32,5 @@ const App = observer(() => {
                         paddingLeft: 8,
                         paddingRight: 8
                     },
-                    drawe
+                    drawerLabelStyle: {
+              
