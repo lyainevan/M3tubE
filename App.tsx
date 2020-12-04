@@ -34,4 +34,5 @@ const App = observer(() => {
                     },
                     drawerLabelStyle: {
                         color: Theme.color.base,
-                        font
+                        fontFamily: "sans-serif",
+     
