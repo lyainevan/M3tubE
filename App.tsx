@@ -33,4 +33,5 @@ const App = observer(() => {
                         paddingRight: 8
                     },
                     drawerLabelStyle: {
-                        color: Theme.color
+                        color: Theme.color.base,
+                        font
