@@ -37,4 +37,5 @@ const App = observer(() => {
                         fontFamily: "sans-serif",
                         fontSize: 16,
                         lineHeight: 24,
-  
+                    },
+     
