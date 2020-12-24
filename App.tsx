@@ -36,4 +36,5 @@ const App = observer(() => {
                         color: Theme.color.base,
                         fontFamily: "sans-serif",
                         fontSize: 16,
-           
+                        lineHeight: 24,
+  
