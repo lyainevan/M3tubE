@@ -38,4 +38,6 @@ const App = observer(() => {
                         fontSize: 16,
                         lineHeight: 24,
                     },
-                    swipeEdgeWidth:
+                    swipeEdgeWidth: 50
+                }}
+     
