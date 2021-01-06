@@ -40,4 +40,5 @@ const App = observer(() => {
                     },
                     swipeEdgeWidth: 50
                 }}
-     
+            >
+           
