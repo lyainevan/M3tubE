@@ -44,4 +44,5 @@ const App = observer(() => {
                 <Drawer.Screen name="Home" component={Home} />
                 <Drawer.Screen name="Manage Sources" component={Configure} />
             </Drawer.Navigator>
-            <StatusBar 
+            <StatusBar style="light" />
+        </N
