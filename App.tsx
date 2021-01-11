@@ -42,4 +42,4 @@ const App = observer(() => {
                 }}
             >
                 <Drawer.Screen name="Home" component={Home} />
-       
+                <Drawer.Screen name=
