@@ -41,4 +41,5 @@ const App = observer(() => {
                     swipeEdgeWidth: 50
                 }}
             >
-                <Drawer.Screen name=
+                <Drawer.Screen name="Home" component={Home} />
+       
