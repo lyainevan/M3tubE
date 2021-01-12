@@ -47,3 +47,7 @@ const App = observer(() => {
             <StatusBar style="light" />
         </NavigationContainer>
     );
+});
+
+
+export default App;
