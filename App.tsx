@@ -45,4 +45,5 @@ const App = observer(() => {
                 <Drawer.Screen name="Manage Sources" component={Configure} />
             </Drawer.Navigator>
             <StatusBar style="light" />
-        </N
+        </NavigationContainer>
+    );
