@@ -3,4 +3,5 @@
     "name": "CoinFeed",
     "slug": "CoinFeed",
     "version": "1.0.2",
-   
+    "orientation": "portrait",
+    "icon": 
