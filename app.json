@@ -7,4 +7,5 @@
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
-      "re
+      "resizeMode": "contain",
+   
