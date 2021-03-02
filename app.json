@@ -16,4 +16,5 @@
     "assetBundlePatterns": [
       "**/*"
     ],
-    "io
+    "ios": {
+      "supportsTabl
