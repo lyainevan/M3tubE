@@ -17,4 +17,6 @@
       "**/*"
     ],
     "ios": {
-      "supportsTabl
+      "supportsTablet": true
+    },
+    "android"
