@@ -19,4 +19,5 @@
     "ios": {
       "supportsTablet": true
     },
-    "android"
+    "android": {
+      "adaptive
