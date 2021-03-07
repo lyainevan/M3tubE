@@ -22,4 +22,4 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-    
+        "backgroundColor": "#000000"
