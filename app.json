@@ -27,4 +27,5 @@
       "package": "com.edz.CoinFeed",
       "versionCode": 3
     },
-    "web":
+    "web": {
+      "favicon": "./
