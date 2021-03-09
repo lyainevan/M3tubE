@@ -28,4 +28,6 @@
       "versionCode": 3
     },
     "web": {
-      "favicon": "./
+      "favicon": "./assets/favicon.png"
+    }
+ 
