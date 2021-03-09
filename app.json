@@ -25,4 +25,6 @@
         "backgroundColor": "#000000"
       },
       "package": "com.edz.CoinFeed",
-      "versionC
+      "versionCode": 3
+    },
+    "web":
