@@ -24,4 +24,5 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "co
+      "package": "com.edz.CoinFeed",
+      "versionC
