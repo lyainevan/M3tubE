@@ -1,1 +1,3 @@
-module.exports = fun
+module.exports = function(api) {
+  api.cache(true);
+  
