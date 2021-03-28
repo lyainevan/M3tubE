@@ -4,4 +4,4 @@ import CFText, { CFTypography } from "./CFText";
 import * as WebBrowser from "expo-web-browser";
 import Theme from "../modules/theme";
 import { useContext } from "react";
-import { CoinFe
+import { CoinFeedStoreContext } from "../mod
