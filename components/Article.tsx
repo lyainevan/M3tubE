@@ -5,4 +5,4 @@ import * as WebBrowser from "expo-web-browser";
 import Theme from "../modules/theme";
 import { useContext } from "react";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
-import 
+import { toRelativeTime } from "../
