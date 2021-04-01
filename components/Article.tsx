@@ -8,4 +8,5 @@ import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 import { toRelativeTime } from "../modules/utils";
 
 export interface CFArticle {
-    title: 
+    title: string;
+    link: string;
