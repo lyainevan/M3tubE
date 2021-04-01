@@ -7,4 +7,5 @@ import { useContext } from "react";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 import { toRelativeTime } from "../modules/utils";
 
-export interface
+export interface CFArticle {
+    title: 
