@@ -11,4 +11,6 @@ export interface CFArticle {
     title: string;
     link: string;
     image?: string;
-    description?: strin
+    description?: string;
+    pubDate: string;
+ 
