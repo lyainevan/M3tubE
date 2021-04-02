@@ -16,4 +16,4 @@ export interface CFArticle {
     category?: string | string[];
 }
 
-c
+const CFShare = ({ link }
