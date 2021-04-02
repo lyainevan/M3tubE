@@ -10,3 +10,5 @@ import { toRelativeTime } from "../modules/utils";
 export interface CFArticle {
     title: string;
     link: string;
+    image?: string;
+    
