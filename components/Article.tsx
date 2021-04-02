@@ -13,4 +13,7 @@ export interface CFArticle {
     image?: string;
     description?: string;
     pubDate: string;
- 
+    category?: string | string[];
+}
+
+c
