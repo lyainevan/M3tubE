@@ -19,4 +19,5 @@ export interface CFArticle {
 const CFShare = ({ link }: { link: string }) => {
     const handlePress = async () => {
         try {
-           
+            await Share.share({
+              
