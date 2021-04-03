@@ -16,4 +16,5 @@ export interface CFArticle {
     category?: string | string[];
 }
 
-const CFShare = ({ link }: { link: string }) => 
+const CFShare = ({ link }: { link: string }) => {
+    const handlePress = asy
