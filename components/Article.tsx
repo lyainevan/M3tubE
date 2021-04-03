@@ -20,4 +20,5 @@ const CFShare = ({ link }: { link: string }) => {
     const handlePress = async () => {
         try {
             await Share.share({
-              
+                title: "Expo Title",
+       
