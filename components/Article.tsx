@@ -22,4 +22,5 @@ const CFShare = ({ link }: { link: string }) => {
             await Share.share({
                 title: "Expo Title",
                 url: link,
-                message: `Check out this article I discovered using Coi
+                message: `Check out this article I discovered using CoinFeed: ${link}`,
+           
