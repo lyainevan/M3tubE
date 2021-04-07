@@ -22,4 +22,4 @@ const CFShare = ({ link }: { link: string }) => {
             await Share.share({
                 title: "Expo Title",
                 url: link,
-        
+                message: `Check out this 
