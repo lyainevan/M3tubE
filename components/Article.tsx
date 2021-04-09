@@ -25,4 +25,7 @@ const CFShare = ({ link }: { link: string }) => {
                 message: `Check out this article I discovered using CoinFeed: ${link}`,
             });
         } catch (error) {
-            console.error(`Error while sharing from 
+            console.error(`Error while sharing from the app: ${error}`);
+        }
+    };
+    return 
