@@ -30,4 +30,5 @@ const CFShare = ({ link }: { link: string }) => {
     };
     return (
         <Pressable onPress={handlePress} hitSlop={20}>
-            <CFText type={CFTypography.
+            <CFText type={CFTypography.H3}>share</CFText>
+        <
