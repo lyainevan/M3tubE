@@ -29,4 +29,5 @@ const CFShare = ({ link }: { link: string }) => {
         }
     };
     return (
-        <Pressable onPress={handlePress} hitSlop={20
+        <Pressable onPress={handlePress} hitSlop={20}>
+            <CFText 
