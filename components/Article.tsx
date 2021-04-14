@@ -28,4 +28,5 @@ const CFShare = ({ link }: { link: string }) => {
             console.error(`Error while sharing from the app: ${error}`);
         }
     };
-    return 
+    return (
+        <Pressable onPress={h
