@@ -35,4 +35,5 @@ const CFShare = ({ link }: { link: string }) => {
     );
 };
 
-const Article =
+const Article = observer(
+    ({ item }: { i
