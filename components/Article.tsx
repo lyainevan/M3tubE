@@ -37,4 +37,5 @@ const CFShare = ({ link }: { link: string }) => {
 
 const Article = observer(
     ({ item }: { item: CFArticle }) => {
-        const { title, link, pubDate } = ite
+        const { title, link, pubDate } = item;
+        const handlePress = (
