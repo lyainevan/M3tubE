@@ -41,4 +41,5 @@ const Article = observer(
         const handlePress = () => WebBrowser.openBrowserAsync(link);
 
         return (
-            <Pressable onPress={handlePress} 
+            <Pressable onPress={handlePress} style={styles.container}>
+          
