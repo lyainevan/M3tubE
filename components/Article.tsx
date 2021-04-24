@@ -38,4 +38,7 @@ const CFShare = ({ link }: { link: string }) => {
 const Article = observer(
     ({ item }: { item: CFArticle }) => {
         const { title, link, pubDate } = item;
-        const handlePress = () => WebBrowser.openBrowserAsync(link)
+        const handlePress = () => WebBrowser.openBrowserAsync(link);
+
+        return (
+         
