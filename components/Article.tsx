@@ -37,4 +37,4 @@ const CFShare = ({ link }: { link: string }) => {
 
 const Article = observer(
     ({ item }: { item: CFArticle }) => {
-        con
+        const { title, link, pubDate } = ite
