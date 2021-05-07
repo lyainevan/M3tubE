@@ -43,4 +43,5 @@ const Article = observer(
         return (
             <Pressable onPress={handlePress} style={styles.container}>
                 <CFText>{title}</CFText>
-  
+                <View>
+          
