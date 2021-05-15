@@ -45,4 +45,4 @@ const Article = observer(
                 <CFText>{title}</CFText>
                 <View>
                     <View style={styles.shareRow}>
-                     
+                        <CFText type={CFTypograph
