@@ -49,4 +49,5 @@ const Article = observer(
                             {toRelativeTime(pubDate)}
                         </CFText>
                         <CFShare link={link}></CFShare>
+                    </View>
                 
