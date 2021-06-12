@@ -47,4 +47,5 @@ const Article = observer(
                     <View style={styles.shareRow}>
                         <CFText type={CFTypography.H3}>
                             {toRelativeTime(pubDate)}
-                   
+                        </CFText>
+           
