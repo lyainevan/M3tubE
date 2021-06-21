@@ -51,4 +51,9 @@ const Article = observer(
                         <CFShare link={link}></CFShare>
                     </View>
                 </View>
-            </
+            </Pressable>
+        );
+    }
+);
+
+con
