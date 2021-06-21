@@ -50,4 +50,5 @@ const Article = observer(
                         </CFText>
                         <CFShare link={link}></CFShare>
                     </View>
-                
+                </View>
+            </
