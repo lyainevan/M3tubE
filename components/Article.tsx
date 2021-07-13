@@ -56,4 +56,4 @@ const Article = observer(
     }
 );
 
-con
+const styles = StyleSheet
