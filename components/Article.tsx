@@ -56,4 +56,6 @@ const Article = observer(
     }
 );
 
-const styles = StyleSheet
+const styles = StyleSheet.create({
+    container: {
+ 
