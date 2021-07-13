@@ -59,4 +59,5 @@ const Article = observer(
 const styles = StyleSheet.create({
     container: {
         paddingTop: Theme.spacing.medium,
-        minWidt
+        minWidth: "100%",
+        m
