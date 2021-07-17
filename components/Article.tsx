@@ -65,4 +65,4 @@ const styles = StyleSheet.create({
     },
     shareRow: {
         flexDirection: "row",
-        justifyC
+        justifyContent: "space-between",
