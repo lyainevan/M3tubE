@@ -61,4 +61,4 @@ const styles = StyleSheet.create({
         paddingTop: Theme.spacing.medium,
         minWidth: "100%",
         minHeight: 125,
-        ju
+        justifyContent: "space-between"
