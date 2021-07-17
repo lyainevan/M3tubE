@@ -66,4 +66,5 @@ const styles = StyleSheet.create({
     shareRow: {
         flexDirection: "row",
         justifyContent: "space-between",
-        marginTop: Theme.spacin
+        marginTop: Theme.spacing.medium,
+        margi
