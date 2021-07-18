@@ -67,4 +67,4 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         justifyContent: "space-between",
         marginTop: Theme.spacing.medium,
-        margi
+        marginBottom: Theme.spacing.medium,
