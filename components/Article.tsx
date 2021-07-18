@@ -68,3 +68,7 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
         marginTop: Theme.spacing.medium,
         marginBottom: Theme.spacing.medium,
+    },
+});
+
+export default 
