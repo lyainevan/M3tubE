@@ -1,4 +1,4 @@
 import { prop } from "ramda";
 import { ReactNode } from "react";
 import { StyleProp, StyleSheet, Text, TextProps, TextStyle } from "react-native";
-import Th
+import Theme from "../modules/the
