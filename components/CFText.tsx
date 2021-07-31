@@ -7,4 +7,8 @@ export enum CFTypography {
     BASE = "base",
     H1 = "h1",
     H3 = "h3",
-    H4 = "
+    H4 = "h4",
+}
+
+const CFText = ({
+   
