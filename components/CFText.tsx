@@ -5,4 +5,6 @@ import Theme from "../modules/theme";
 
 export enum CFTypography {
     BASE = "base",
-    H1 = "h
+    H1 = "h1",
+    H3 = "h3",
+    H4 = "
