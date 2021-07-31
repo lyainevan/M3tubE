@@ -13,4 +13,6 @@ export enum CFTypography {
 const CFText = ({
     type,
     children,
-    ...p
+    ...props
+}: {
+    type?: CFTypography;
