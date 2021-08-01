@@ -17,4 +17,5 @@ const CFText = ({
 }: {
     type?: CFTypography;
     children?: ReactNode;
-} & TextPr
+} & TextProps) => (
+    <Text
