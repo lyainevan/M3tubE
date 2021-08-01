@@ -18,4 +18,4 @@ const CFText = ({
     type?: CFTypography;
     children?: ReactNode;
 } & TextProps) => (
-    <Text
+    <Text {...props} style={StyleShe
