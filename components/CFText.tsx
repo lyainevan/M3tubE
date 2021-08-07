@@ -23,4 +23,4 @@ const CFText = ({
     </Text>
 );
 
-cons
+const styles: { [key: string]: Style
