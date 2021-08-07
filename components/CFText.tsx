@@ -23,4 +23,4 @@ const CFText = ({
     </Text>
 );
 
-const styles: { [key: string]: Style
+const styles: { [key: string]: StyleProp<TextStyle> } = StyleShe
