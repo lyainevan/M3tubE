@@ -26,4 +26,6 @@ const CFText = ({
 const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
     base: {
         color: Theme.color.base,
-        fontFamily: "sans-serif"
+        fontFamily: "sans-serif",
+        fontSize: 16,
+ 
