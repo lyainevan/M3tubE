@@ -30,4 +30,5 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         fontSize: 16,
         lineHeight: 24
     },
-  
+    h1: {
+        textTransfor
