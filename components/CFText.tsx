@@ -34,4 +34,7 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         textTransform: "uppercase",
         fontSize: 30,
         lineHeight: 35,
-        fontWeight: "
+        fontWeight: "bold",
+    },
+    h3: {
+   
