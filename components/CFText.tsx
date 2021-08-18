@@ -37,4 +37,5 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         fontWeight: "bold",
     },
     h3: {
-   
+        fontSize: 10,
+  
