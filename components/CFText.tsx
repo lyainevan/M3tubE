@@ -38,4 +38,5 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
     },
     h3: {
         fontSize: 10,
-  
+        lineHeight: 10,
+   
