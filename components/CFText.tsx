@@ -40,4 +40,6 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         fontSize: 10,
         lineHeight: 10,
         color: Theme.color.gray,
-  
+    },
+    h4: {
+        fontSize:
