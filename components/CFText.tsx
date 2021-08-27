@@ -47,3 +47,5 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         textTransform: "none",
     },
 });
+
+const { base } = 
