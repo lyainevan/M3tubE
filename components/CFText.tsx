@@ -42,4 +42,6 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
         color: Theme.color.gray,
     },
     h4: {
-        fontSize:
+        fontSize: 12,
+        lineHeight: 12,
+  
