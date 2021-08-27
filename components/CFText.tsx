@@ -44,4 +44,6 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
     h4: {
         fontSize: 12,
         lineHeight: 12,
-        textTransform:
+        textTransform: "none",
+    },
+});
