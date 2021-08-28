@@ -49,4 +49,4 @@ const styles: { [key: string]: StyleProp<TextStyle> } = StyleSheet.create({
 });
 
 const { base } = styles;
-const h1 = StyleSheet.comp
+const h1 = StyleSheet.compose(base, styles.h1);
