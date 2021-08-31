@@ -54,4 +54,4 @@ const h3 = StyleSheet.compose(h1, styles.h3);
 const h4 = StyleSheet.compose(h3, styles.h4);
 const textStyles: { [key: string]: StyleProp<TextStyle> } = { base, h1, h4, h3 };
 
-export default CFT
+export default CFText;
