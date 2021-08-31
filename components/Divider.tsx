@@ -22,3 +22,9 @@ const Divider = ({
                             : Theme.color.base,
                 },
                 props?.style,
+            ])}
+        ></View>
+    );
+};
+
+export default Divider;
