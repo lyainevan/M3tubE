@@ -3,4 +3,4 @@ import {
     DrawerItemList,
 } from "@react-navigation/drawer";
 import { Image, StyleSheet } from "react-native";
-import Theme fro
+import Theme from "../modules/theme";
