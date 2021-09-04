@@ -5,4 +5,5 @@ import {
 import { Image, StyleSheet } from "react-native";
 import Theme from "../modules/theme";
 
-const CFDrawer = (prop
+const CFDrawer = (props: any) => (
+    <DrawerCo
