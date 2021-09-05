@@ -8,4 +8,4 @@ import Theme from "../modules/theme";
 const CFDrawer = (props: any) => (
     <DrawerContentScrollView {...props}>
         <Image
-         
+            progressiveRenderingEnabled
