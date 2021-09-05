@@ -9,3 +9,4 @@ const CFDrawer = (props: any) => (
     <DrawerContentScrollView {...props}>
         <Image
             progressiveRenderingEnabled
+            source={require(".
