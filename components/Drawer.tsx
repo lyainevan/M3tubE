@@ -10,4 +10,4 @@ const CFDrawer = (props: any) => (
         <Image
             progressiveRenderingEnabled
             source={require("../assets/icon.png")}
-         
+            style={styles.drawerH
