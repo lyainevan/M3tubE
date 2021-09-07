@@ -12,4 +12,4 @@ const CFDrawer = (props: any) => (
             source={require("../assets/icon.png")}
             style={styles.drawerHeader}
         ></Image>
-      
+        <DrawerItemList {...props} 
