@@ -16,4 +16,6 @@ const CFDrawer = (props: any) => (
     </DrawerContentScrollView>
 );
 
-const styles = StyleSheet.crea
+const styles = StyleSheet.create({
+    drawerHeader: {
+     
