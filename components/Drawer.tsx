@@ -13,4 +13,7 @@ const CFDrawer = (props: any) => (
             style={styles.drawerHeader}
         ></Image>
         <DrawerItemList {...props} />
-    </DrawerContentScr
+    </DrawerContentScrollView>
+);
+
+con
