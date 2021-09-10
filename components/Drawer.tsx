@@ -21,4 +21,5 @@ const styles = StyleSheet.create({
         height: 100,
         width: 87.3,
         alignSelf: "center",
-        marginBo
+        marginBottom: Theme.spacing.large,
+        marg
