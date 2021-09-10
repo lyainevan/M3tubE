@@ -20,4 +20,5 @@ const styles = StyleSheet.create({
     drawerHeader: {
         height: 100,
         width: 87.3,
-        alignSelf: "center
+        alignSelf: "center",
+        marginBo
