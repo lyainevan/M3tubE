@@ -18,4 +18,5 @@ const CFDrawer = (props: any) => (
 
 const styles = StyleSheet.create({
     drawerHeader: {
-     
+        height: 100,
+        width: 87.3,
