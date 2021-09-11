@@ -24,3 +24,6 @@ const styles = StyleSheet.create({
         marginBottom: Theme.spacing.large,
         marginTop: Theme.spacing.small
     }
+})
+
+export default CFDrawer;
