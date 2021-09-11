@@ -1,1 +1,1 @@
-impo
+import { DrawerScreenProps }
