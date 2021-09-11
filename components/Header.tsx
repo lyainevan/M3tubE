@@ -1,1 +1,1 @@
-import { DrawerScreenProps }
+import { DrawerScreenProps } from "@react-navigation/dr
