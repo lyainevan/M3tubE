@@ -22,4 +22,5 @@ const styles = StyleSheet.create({
         width: 87.3,
         alignSelf: "center",
         marginBottom: Theme.spacing.large,
-        marg
+        marginTop: Theme.spacing.small
+    }
