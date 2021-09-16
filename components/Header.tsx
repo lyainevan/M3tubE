@@ -3,4 +3,5 @@ import React from "react";
 import { Pressable, View, StyleSheet } from "react-native";
 import { RootDrawerParamList } from "../App";
 import Theme from "../modules/theme";
-import CFText, { CFTypography } from "./
+import CFText, { CFTypography } from "./CFText";
+import Divid
