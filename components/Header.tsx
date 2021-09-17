@@ -5,4 +5,4 @@ import { RootDrawerParamList } from "../App";
 import Theme from "../modules/theme";
 import CFText, { CFTypography } from "./CFText";
 import Divider, { DividerType } from "./Divider";
-impo
+import { Feather } from "@expo/v
