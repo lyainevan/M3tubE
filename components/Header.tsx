@@ -7,4 +7,6 @@ import CFText, { CFTypography } from "./CFText";
 import Divider, { DividerType } from "./Divider";
 import { Feather } from "@expo/vector-icons";
 
-const Header =
+const Header = ({
+    navigation,
+    primar
