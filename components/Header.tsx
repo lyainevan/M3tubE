@@ -9,4 +9,5 @@ import { Feather } from "@expo/vector-icons";
 
 const Header = ({
     navigation,
-    primar
+    primaryText,
+    secondaryText,
