@@ -11,3 +11,4 @@ const Header = ({
     navigation,
     primaryText,
     secondaryText,
+}: DrawerScreenProps<RootDrawerP
