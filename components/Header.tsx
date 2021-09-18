@@ -13,4 +13,6 @@ const Header = ({
     secondaryText,
 }: DrawerScreenProps<RootDrawerParamList> & {
     primaryText: string;
-    secondaryText?: str
+    secondaryText?: string;
+}) => {
+    return
