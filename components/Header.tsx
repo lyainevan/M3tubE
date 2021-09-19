@@ -16,4 +16,5 @@ const Header = ({
     secondaryText?: string;
 }) => {
     return (
-        <View style={styles.c
+        <View style={styles.container}>
+            <Vi
