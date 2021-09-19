@@ -15,4 +15,5 @@ const Header = ({
     primaryText: string;
     secondaryText?: string;
 }) => {
-    return
+    return (
+        <View style={styles.c
