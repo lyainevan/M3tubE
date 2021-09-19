@@ -17,4 +17,4 @@ const Header = ({
 }) => {
     return (
         <View style={styles.container}>
-            <Vi
+            <View style={styles.headerRow}>
