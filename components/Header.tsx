@@ -19,4 +19,5 @@ const Header = ({
         <View style={styles.container}>
             <View style={styles.headerRow}>
                 <Pressable
-                    onPres
+                    onPress={navigation.openDrawer}
+          
