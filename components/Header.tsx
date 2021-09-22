@@ -21,4 +21,4 @@ const Header = ({
                 <Pressable
                     onPress={navigation.openDrawer}
                     hitSlop={20}
-                    style={{ 
+                    style={{ paddingEnd: Theme.spacing.sm
