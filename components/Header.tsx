@@ -20,4 +20,5 @@ const Header = ({
             <View style={styles.headerRow}>
                 <Pressable
                     onPress={navigation.openDrawer}
-          
+                    hitSlop={20}
+     
