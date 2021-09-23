@@ -23,4 +23,4 @@ const Header = ({
                     hitSlop={20}
                     style={{ paddingEnd: Theme.spacing.small }}
                 >
-                    <Feather nam
+                    <Feather name="menu" size={30} colo
