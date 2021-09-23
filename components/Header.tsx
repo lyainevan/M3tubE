@@ -24,4 +24,5 @@ const Header = ({
                     style={{ paddingEnd: Theme.spacing.small }}
                 >
                     <Feather name="menu" size={30} color="white" />
-                </Pressa
+                </Pressable>
+              
