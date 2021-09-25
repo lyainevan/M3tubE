@@ -27,4 +27,5 @@ const Header = ({
                 </Pressable>
                 <CFText type={CFTypography.H1}>{primaryText}</CFText>
             </View>
-         
+            <View
+                sty
