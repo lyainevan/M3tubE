@@ -26,3 +26,5 @@ const Header = ({
                     <Feather name="menu" size={30} color="white" />
                 </Pressable>
                 <CFText type={CFTypography.H1}>{primaryText}</CFText>
+            </View>
+         
