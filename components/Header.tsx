@@ -28,4 +28,5 @@ const Header = ({
                 <CFText type={CFTypography.H1}>{primaryText}</CFText>
             </View>
             <View
-                sty
+                style={StyleSheet.flatten([
+   
