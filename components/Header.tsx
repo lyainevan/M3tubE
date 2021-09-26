@@ -30,4 +30,5 @@ const Header = ({
             <View
                 style={StyleSheet.flatten([
                     styles.headerRow,
-                 
+                    styles.websiteRow,
+                
