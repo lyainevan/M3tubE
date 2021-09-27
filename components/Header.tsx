@@ -33,4 +33,5 @@ const Header = ({
                     styles.websiteRow,
                 ])}
             >
-                <CFText type={CFTypography.H4}>{secondar
+                <CFText type={CFTypography.H4}>{secondaryText || ""}</CFText>
+            </Vi
