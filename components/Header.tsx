@@ -31,4 +31,6 @@ const Header = ({
                 style={StyleSheet.flatten([
                     styles.headerRow,
                     styles.websiteRow,
-                
+                ])}
+            >
+          
