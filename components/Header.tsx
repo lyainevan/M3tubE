@@ -33,4 +33,4 @@ const Header = ({
                     styles.websiteRow,
                 ])}
             >
-          
+                <CFText type={CFT
