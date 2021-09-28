@@ -34,4 +34,5 @@ const Header = ({
                 ])}
             >
                 <CFText type={CFTypography.H4}>{secondaryText || ""}</CFText>
-            </Vi
+            </View>
+            <Divider type={Divid
