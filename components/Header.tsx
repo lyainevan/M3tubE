@@ -40,3 +40,4 @@ const Header = ({
     );
 };
 
+const styles = StyleSh
