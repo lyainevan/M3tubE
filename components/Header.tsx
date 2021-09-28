@@ -36,4 +36,7 @@ const Header = ({
                 <CFText type={CFTypography.H4}>{secondaryText || ""}</CFText>
             </View>
             <Divider type={DividerType.THICK}></Divider>
-  
+        </View>
+    );
+};
+
