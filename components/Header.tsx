@@ -43,4 +43,5 @@ const Header = ({
 const styles = StyleSheet.create({
     headerRow: {
         alignItems: "center",
-        alignContent:
+        alignContent: "center",
+        flexDirection
