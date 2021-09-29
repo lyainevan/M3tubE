@@ -40,4 +40,5 @@ const Header = ({
     );
 };
 
-const styles = StyleSh
+const styles = StyleSheet.create({
+    headerRow
