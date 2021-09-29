@@ -42,4 +42,5 @@ const Header = ({
 
 const styles = StyleSheet.create({
     headerRow: {
-        alignItems:
+        alignItems: "center",
+        alignContent:
