@@ -46,4 +46,5 @@ const styles = StyleSheet.create({
         alignContent: "center",
         flexDirection: "row",
     },
-    websiteR
+    websiteRow: {
+        justifyContent: "space-bet
