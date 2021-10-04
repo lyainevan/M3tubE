@@ -44,4 +44,6 @@ const styles = StyleSheet.create({
     headerRow: {
         alignItems: "center",
         alignContent: "center",
-        flexDirection
+        flexDirection: "row",
+    },
+    websiteR
