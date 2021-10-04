@@ -47,4 +47,5 @@ const styles = StyleSheet.create({
         flexDirection: "row",
     },
     websiteRow: {
-        justifyContent: "space-bet
+        justifyContent: "space-between",
+        marginTop: The
