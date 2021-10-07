@@ -49,4 +49,6 @@ const styles = StyleSheet.create({
     websiteRow: {
         justifyContent: "space-between",
         marginTop: Theme.spacing.small,
-        mar
+        marginBottom: 26,
+    },
+    contai
