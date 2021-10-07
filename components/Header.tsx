@@ -51,4 +51,5 @@ const styles = StyleSheet.create({
         marginTop: Theme.spacing.small,
         marginBottom: 26,
     },
-    contai
+    container: {
+        width: "
