@@ -52,4 +52,5 @@ const styles = StyleSheet.create({
         marginBottom: 26,
     },
     container: {
-        width: "
+        width: "100%",
+        paddingTop
