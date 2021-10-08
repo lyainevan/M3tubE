@@ -53,4 +53,8 @@ const styles = StyleSheet.create({
     },
     container: {
         width: "100%",
-        paddingTop
+        paddingTop: 88,
+    },
+});
+
+expor
