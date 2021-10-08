@@ -57,4 +57,4 @@ const styles = StyleSheet.create({
     },
 });
 
-expor
+export default Header;
