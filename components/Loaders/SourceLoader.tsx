@@ -1,1 +1,2 @@
-import React fr
+import React from "react";
+import ContentLoader, { C
