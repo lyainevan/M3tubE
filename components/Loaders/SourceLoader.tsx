@@ -1,2 +1,2 @@
 import React from "react";
-import ContentLoader, { C
+import ContentLoader, { Circle } from "react-content-loader/na
