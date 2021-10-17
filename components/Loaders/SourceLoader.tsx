@@ -7,4 +7,5 @@ const SourceLoader = (props: ViewProps) => (
         speed={2}
         width={400}
         height={112}
-        viewBox="0 0 400 1
+        viewBox="0 0 400 112"
+        backgroundColo
