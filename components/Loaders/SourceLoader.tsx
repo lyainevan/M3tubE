@@ -5,4 +5,5 @@ import { ViewProps } from "react-native";
 const SourceLoader = (props: ViewProps) => (
     <ContentLoader
         speed={2}
-        width=
+        width={400}
+        height={112}
