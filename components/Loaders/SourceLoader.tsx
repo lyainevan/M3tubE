@@ -8,4 +8,5 @@ const SourceLoader = (props: ViewProps) => (
         width={400}
         height={112}
         viewBox="0 0 400 112"
-        backgroundColo
+        backgroundColor="#292929"
+        foregroundCol
