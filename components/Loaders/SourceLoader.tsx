@@ -10,4 +10,6 @@ const SourceLoader = (props: ViewProps) => (
         viewBox="0 0 400 112"
         backgroundColor="#292929"
         foregroundColor="#646464"
-        {...props
+        {...props}
+    >
+        <Circle cx=
