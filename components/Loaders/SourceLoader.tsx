@@ -15,4 +15,5 @@ const SourceLoader = (props: ViewProps) => (
         <Circle cx="32" cy="32" r="32" />
         <Circle cx="112" cy="32" r="32" />
         <Circle cx="192" cy="32" r="32" />
-        <Circle cx="27
+        <Circle cx="272" cy="32" r="32" />
+      
