@@ -19,3 +19,5 @@ const SourceLoader = (props: ViewProps) => (
         <Circle cx="352" cy="32" r="32" />
     </ContentLoader>
 );
+
+export default SourceLoader;
