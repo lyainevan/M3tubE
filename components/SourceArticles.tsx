@@ -65,3 +65,32 @@ const SourceArticles = observer(() => {
             data={activeArticles}
             renderItem={(prop) => <Article {...prop}></Article>}
             keyExtractor={({ link }) => link}
+            contentContainerStyle={styles.articlesContainer}
+            ItemSeparatorComponent={() => (
+                <Divider type={DividerType.THIN}></Divider>
+            )}
+            ListEmptyComponent={() => (
+                <ArticleLoader style={styles.articlesContainer}></ArticleLoader>
+            )}
+            initialNumToRender={5}
+            onRefresh={handleRefresh}
+            refreshing={refreshing}
+            showsVerticalScrollIndicator={true}
+            onScroll={({
+                nativeEvent: {
+                    contentOffset: { x, y },
+                },
+            }) => {
+                if (shouldUpdateScrollDir) {
+                    compose(
+                        coinFeedStore.updateArticleScrollDirection.bind(
+                            coinFeedStore
+                        ),
+                        ifElse(
+                            gt(y),
+                            always(VerticalScrollDirection.UP),
+                            always(VerticalScrollDirection.DOWN)
+                        )
+                    )(contentOffset.current.y);
+                }
+                contentOffset.current = { x, y };
