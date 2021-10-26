@@ -1,1 +1,1 @@
-import { Linea
+import { LinearGradient } from "expo-linea
