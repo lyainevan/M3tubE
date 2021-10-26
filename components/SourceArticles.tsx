@@ -94,3 +94,24 @@ const SourceArticles = observer(() => {
                     )(contentOffset.current.y);
                 }
                 contentOffset.current = { x, y };
+            }}
+            onScrollBeginDrag={() => {
+                shouldUpdateScrollDir = true;
+            }}
+            onScrollEndDrag={() => {
+                shouldUpdateScrollDir = false;
+            }}
+            scrollEventThrottle={10000}
+        ></FlatList>
+    );
+});
+
+const styles = StyleSheet.create({
+    articlesContainer: {
+        paddingLeft: Theme.spacing.medium,
+        paddingRight: Theme.spacing.medium,
+        paddingBottom: 135,
+    },
+});
+
+export default SourceArticles;
