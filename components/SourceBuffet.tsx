@@ -1,1 +1,2 @@
-import { LinearGradient } from "expo-linea
+import { LinearGradient } from "expo-linear-gradient";
+import { observer } 
