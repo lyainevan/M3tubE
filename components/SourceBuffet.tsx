@@ -1,3 +1,4 @@
 import { LinearGradient } from "expo-linear-gradient";
 import { observer } from "mobx-react-lite";
-import React, { useContext, useE
+import React, { useContext, useEffect, useRef } from "react";
+i
