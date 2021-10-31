@@ -5,4 +5,5 @@ import { StyleSheet, FlatList } from "react-native";
 import { Animated } from "react-native";
 import {
     CoinFeedStoreContext,
-    Verti
+    VerticalScrollDirection,
+} from "../m
