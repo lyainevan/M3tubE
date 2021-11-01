@@ -6,4 +6,5 @@ import { Animated } from "react-native";
 import {
     CoinFeedStoreContext,
     VerticalScrollDirection,
-} from "../m
+} from "../modules/CoinFeedStore";
+impor
