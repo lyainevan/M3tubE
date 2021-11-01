@@ -7,4 +7,4 @@ import {
     CoinFeedStoreContext,
     VerticalScrollDirection,
 } from "../modules/CoinFeedStore";
-impor
+import Theme from "../modules/th
