@@ -10,3 +10,5 @@ import {
 import Theme from "../modules/theme";
 import SourcePebble from "./SourcePebble";
 import SourceLoader from "./loaders/SourceLoader";
+
+export interface Sourc
