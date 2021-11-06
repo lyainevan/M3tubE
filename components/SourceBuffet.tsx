@@ -9,4 +9,4 @@ import {
 } from "../modules/CoinFeedStore";
 import Theme from "../modules/theme";
 import SourcePebble from "./SourcePebble";
-import SourceLoader from "./load
+import SourceLoader from "./loaders/SourceLoader";
