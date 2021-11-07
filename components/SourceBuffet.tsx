@@ -14,4 +14,5 @@ import SourceLoader from "./loaders/SourceLoader";
 export interface Source {
     name: string;
     feedUrl: string;
-   
+    website: string;
+    colorOne: str
