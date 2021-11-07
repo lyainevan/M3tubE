@@ -15,4 +15,5 @@ export interface Source {
     name: string;
     feedUrl: string;
     website: string;
-    colorOne: str
+    colorOne: string;
+    colorTwo: string;
