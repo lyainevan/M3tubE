@@ -13,4 +13,5 @@ import SourceLoader from "./loaders/SourceLoader";
 
 export interface Source {
     name: string;
-    feedU
+    feedUrl: string;
+   
