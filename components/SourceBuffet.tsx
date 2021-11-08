@@ -17,3 +17,5 @@ export interface Source {
     website: string;
     colorOne: string;
     colorTwo: string;
+    isActive?: boolean;
+    _id: st
