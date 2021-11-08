@@ -18,4 +18,7 @@ export interface Source {
     colorOne: string;
     colorTwo: string;
     isActive?: boolean;
-    _id: st
+    _id: string;
+}
+
+const SourceBuffet = o
