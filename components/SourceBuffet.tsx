@@ -21,4 +21,5 @@ export interface Source {
     _id: string;
 }
 
-const SourceBuffet = o
+const SourceBuffet = observer(() => {
+    const coin
