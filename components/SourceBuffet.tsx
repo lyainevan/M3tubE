@@ -22,4 +22,4 @@ export interface Source {
 }
 
 const SourceBuffet = observer(() => {
-    const coin
+    const coinFeedStore = useContex
