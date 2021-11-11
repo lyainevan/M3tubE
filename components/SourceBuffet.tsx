@@ -23,4 +23,4 @@ export interface Source {
 
 const SourceBuffet = observer(() => {
     const coinFeedStore = useContext(CoinFeedStoreContext);
-   
+    const sourceBufferPos = useRef(new
