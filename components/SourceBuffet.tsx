@@ -26,4 +26,5 @@ const SourceBuffet = observer(() => {
     const sourceBufferPos = useRef(new Animated.Value(0)).current;
 
     const slideUp = () => {
-        Animated.timing
+        Animated.timing(sourceBufferPos, {
+        
