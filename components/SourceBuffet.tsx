@@ -25,4 +25,5 @@ const SourceBuffet = observer(() => {
     const coinFeedStore = useContext(CoinFeedStoreContext);
     const sourceBufferPos = useRef(new Animated.Value(0)).current;
 
-    const slideUp = () => 
+    const slideUp = () => {
+        Animated.timing
