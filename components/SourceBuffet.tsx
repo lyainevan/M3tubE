@@ -28,4 +28,5 @@ const SourceBuffet = observer(() => {
     const slideUp = () => {
         Animated.timing(sourceBufferPos, {
             toValue: 0,
-            duration: 40
+            duration: 400,
+            useNativeDriver: t
