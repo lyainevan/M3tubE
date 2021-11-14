@@ -29,4 +29,5 @@ const SourceBuffet = observer(() => {
         Animated.timing(sourceBufferPos, {
             toValue: 0,
             duration: 400,
-            useNativeDriver: t
+            useNativeDriver: true,
+        }).start()
