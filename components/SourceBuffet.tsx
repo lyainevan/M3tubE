@@ -30,4 +30,7 @@ const SourceBuffet = observer(() => {
             toValue: 0,
             duration: 400,
             useNativeDriver: true,
-        }).start()
+        }).start();
+    };
+
+    const slideDow
