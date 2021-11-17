@@ -34,4 +34,4 @@ const SourceBuffet = observer(() => {
     };
 
     const slideDown = () => {
-        Animated.
+        Animated.timing(sourceB
