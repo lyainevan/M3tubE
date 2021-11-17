@@ -33,4 +33,5 @@ const SourceBuffet = observer(() => {
         }).start();
     };
 
-    const slideDow
+    const slideDown = () => {
+        Animated.
