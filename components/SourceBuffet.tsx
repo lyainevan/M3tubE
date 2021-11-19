@@ -38,4 +38,7 @@ const SourceBuffet = observer(() => {
             toValue: 162,
             duration: 400,
             useNativeDriver: true,
- 
+        }).start();
+    };
+
+    us
