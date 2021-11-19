@@ -41,4 +41,5 @@ const SourceBuffet = observer(() => {
         }).start();
     };
 
-    us
+    useEffect(() => {
+        if (coin
