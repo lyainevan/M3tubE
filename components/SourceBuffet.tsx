@@ -42,4 +42,4 @@ const SourceBuffet = observer(() => {
     };
 
     useEffect(() => {
-        if (coin
+        if (coinFeedStore.articleScrollDirecti
