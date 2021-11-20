@@ -42,4 +42,6 @@ const SourceBuffet = observer(() => {
     };
 
     useEffect(() => {
-        if (coinFeedStore.articleScrollDirection === VerticalScrollDirectio
+        if (coinFeedStore.articleScrollDirection === VerticalScrollDirection.UP)
+            slideDown();
+        else 
