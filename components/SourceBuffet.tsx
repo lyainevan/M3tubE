@@ -45,4 +45,4 @@ const SourceBuffet = observer(() => {
         if (coinFeedStore.articleScrollDirection === VerticalScrollDirection.UP)
             slideDown();
         else slideUp();
-    }, [coinFee
+    }, [coinFeedStore.articleScrollDi
