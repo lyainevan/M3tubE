@@ -49,4 +49,4 @@ const SourceBuffet = observer(() => {
 
     return (
         <Animated.View
-        
+            style={StyleSheet.flatten([
