@@ -48,4 +48,5 @@ const SourceBuffet = observer(() => {
     }, [coinFeedStore.articleScrollDirection]);
 
     return (
-      
+        <Animated.View
+        
