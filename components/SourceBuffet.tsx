@@ -51,4 +51,4 @@ const SourceBuffet = observer(() => {
         <Animated.View
             style={StyleSheet.flatten([
                 styles.container,
-                { transform: [{ trans
+                { transform: [{ translateY: sourceBuffer
