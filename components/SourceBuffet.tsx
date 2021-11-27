@@ -54,4 +54,4 @@ const SourceBuffet = observer(() => {
                 { transform: [{ translateY: sourceBufferPos }] },
             ])}
         >
-   
+            <Linear
