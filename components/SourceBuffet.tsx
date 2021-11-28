@@ -59,4 +59,5 @@ const SourceBuffet = observer(() => {
                 colors={["transparent", Theme.color.dark]}
             ></LinearGradient>
             <FlatList
-                
+                horizontal
+                dat
