@@ -57,4 +57,5 @@ const SourceBuffet = observer(() => {
             <LinearGradient
                 style={styles.gradient}
                 colors={["transparent", Theme.color.dark]}
+            ></LinearGradient>
         
