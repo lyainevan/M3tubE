@@ -60,4 +60,5 @@ const SourceBuffet = observer(() => {
             ></LinearGradient>
             <FlatList
                 horizontal
-                data={coinFeedStore.activeSources
+                data={coinFeedStore.activeSources}
+                renderItem={(prop) => 
