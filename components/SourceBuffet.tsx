@@ -61,4 +61,5 @@ const SourceBuffet = observer(() => {
             <FlatList
                 horizontal
                 data={coinFeedStore.activeSources}
-                renderItem={(prop) => <SourcePebble {...prop}></So
+                renderItem={(prop) => <SourcePebble {...prop}></SourcePebble>}
+                key
