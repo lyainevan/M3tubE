@@ -62,4 +62,5 @@ const SourceBuffet = observer(() => {
                 horizontal
                 data={coinFeedStore.activeSources}
                 renderItem={(prop) => <SourcePebble {...prop}></SourcePebble>}
-                keyExtractor={({ _id }) => _id
+                keyExtractor={({ _id }) => _id}
+                sty
