@@ -64,4 +64,5 @@ const SourceBuffet = observer(() => {
                 renderItem={(prop) => <SourcePebble {...prop}></SourcePebble>}
                 keyExtractor={({ _id }) => _id}
                 style={styles.buffet}
-                contentContainerStyle={styles.bufferContainer
+                contentContainerStyle={styles.bufferContainer}
+                ListEmp
