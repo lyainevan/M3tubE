@@ -66,4 +66,6 @@ const SourceBuffet = observer(() => {
                 style={styles.buffet}
                 contentContainerStyle={styles.bufferContainer}
                 ListEmptyComponent={() => (
-                    <SourceLoader style={styles.bufferContainer}></Sourc
+                    <SourceLoader style={styles.bufferContainer}></SourceLoader>
+                )}
+   
