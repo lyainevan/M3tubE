@@ -65,4 +65,5 @@ const SourceBuffet = observer(() => {
                 keyExtractor={({ _id }) => _id}
                 style={styles.buffet}
                 contentContainerStyle={styles.bufferContainer}
-                ListEmp
+                ListEmptyComponent={() => (
+                 
