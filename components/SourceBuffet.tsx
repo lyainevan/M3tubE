@@ -68,4 +68,6 @@ const SourceBuffet = observer(() => {
                 ListEmptyComponent={() => (
                     <SourceLoader style={styles.bufferContainer}></SourceLoader>
                 )}
-                initialNumToRender
+                initialNumToRender={5}
+            />
+        <
