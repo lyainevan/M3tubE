@@ -72,3 +72,6 @@ const SourceBuffet = observer(() => {
             />
         </Animated.View>
     );
+});
+
+const styles = Styl
