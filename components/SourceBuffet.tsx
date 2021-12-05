@@ -70,4 +70,5 @@ const SourceBuffet = observer(() => {
                 )}
                 initialNumToRender={5}
             />
-        <
+        </Animated.View>
+    );
