@@ -76,3 +76,4 @@ const SourceBuffet = observer(() => {
 
 const styles = StyleSheet.create({
     buffet: {
+        height: 112,
