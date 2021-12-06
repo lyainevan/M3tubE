@@ -74,4 +74,5 @@ const SourceBuffet = observer(() => {
     );
 });
 
-const styles = Styl
+const styles = StyleSheet.create({
+    buffet: {
