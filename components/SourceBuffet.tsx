@@ -79,4 +79,5 @@ const styles = StyleSheet.create({
         height: 112,
     },
     bufferContainer: {
-        padding:
+        padding: 24,
+        backgroundCo
