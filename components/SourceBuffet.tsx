@@ -82,4 +82,6 @@ const styles = StyleSheet.create({
         padding: 24,
         backgroundColor: Theme.color.dark,
         margin: 0,
-        minW
+        minWidth: "100%",
+    },
+    g
