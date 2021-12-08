@@ -81,4 +81,5 @@ const styles = StyleSheet.create({
     bufferContainer: {
         padding: 24,
         backgroundColor: Theme.color.dark,
-    
+        margin: 0,
+        minW
