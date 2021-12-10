@@ -87,4 +87,6 @@ const styles = StyleSheet.create({
     gradient: {
         height: 50,
         margin: 0,
-        transform: [{ translateY: 1 
+        transform: [{ translateY: 1 }],
+    },
+    container: {
