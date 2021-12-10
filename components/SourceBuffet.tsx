@@ -90,3 +90,5 @@ const styles = StyleSheet.create({
         transform: [{ translateY: 1 }],
     },
     container: {
+        width: "100%",
+    
