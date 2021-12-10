@@ -85,4 +85,6 @@ const styles = StyleSheet.create({
         minWidth: "100%",
     },
     gradient: {
-        height: 5
+        height: 50,
+        margin: 0,
+   
