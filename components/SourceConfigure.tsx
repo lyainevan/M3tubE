@@ -1,2 +1,2 @@
 import { Pressable, View, StyleSheet } from "react-native";
-import { RenderItemPar
+import { RenderItemParams } from "react-
