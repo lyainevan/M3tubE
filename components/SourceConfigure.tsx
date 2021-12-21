@@ -4,4 +4,4 @@ import Theme from "../modules/theme";
 import CFText from "./CFText";
 import { Source } from "./SourceBuffet";
 import SourceImage from "./SourceImage";
-import { MaterialCommunityIco
+import { MaterialCommunityIcons, MaterialIcons } from "@expo/vecto
