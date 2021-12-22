@@ -6,4 +6,4 @@ import { Source } from "./SourceBuffet";
 import SourceImage from "./SourceImage";
 import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
 import { impactAsync, ImpactFeedbackStyle } from "expo-haptics";
-import
+import React, { useContext } from "react";
