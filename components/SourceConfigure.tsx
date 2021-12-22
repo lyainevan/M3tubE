@@ -7,3 +7,4 @@ import SourceImage from "./SourceImage";
 import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
 import { impactAsync, ImpactFeedbackStyle } from "expo-haptics";
 import React, { useContext } from "react";
+import { observer } from "mo
