@@ -5,4 +5,4 @@ import CFText from "./CFText";
 import { Source } from "./SourceBuffet";
 import SourceImage from "./SourceImage";
 import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
-import { impact
+import { impactAsync, ImpactFeedbackStyle 
