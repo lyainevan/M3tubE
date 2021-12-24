@@ -8,4 +8,6 @@ import { MaterialCommunityIcons, MaterialIcons } from "@expo/vector-icons";
 import { impactAsync, ImpactFeedbackStyle } from "expo-haptics";
 import React, { useContext } from "react";
 import { observer } from "mobx-react-lite";
-import { CoinFeedStoreContext } from "../modules/
+import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
+
+const Sour
