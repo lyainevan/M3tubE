@@ -11,4 +11,5 @@ import { observer } from "mobx-react-lite";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 
 const SourceConfigure = observer(
-    ({ item, isActive, drag }: RenderItemParams<
+    ({ item, isActive, drag }: RenderItemParams<Source>) => {
+        co
