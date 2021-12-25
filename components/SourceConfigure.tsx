@@ -10,4 +10,5 @@ import React, { useContext } from "react";
 import { observer } from "mobx-react-lite";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 
-const Sour
+const SourceConfigure = observer(
+    ({ it
