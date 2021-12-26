@@ -12,4 +12,6 @@ import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 
 const SourceConfigure = observer(
     ({ item, isActive, drag }: RenderItemParams<Source>) => {
-        const coinFeedStore = useContext(CoinFeedStoreContext)
+        const coinFeedStore = useContext(CoinFeedStoreContext);
+        return (
+            
