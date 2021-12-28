@@ -15,4 +15,5 @@ const SourceConfigure = observer(
         const coinFeedStore = useContext(CoinFeedStoreContext);
         return (
             <Pressable
-                onL
+                onLongPress={() => {
+     
