@@ -16,4 +16,5 @@ const SourceConfigure = observer(
         return (
             <Pressable
                 onLongPress={() => {
-                    drag
+                    drag();
+                    i
