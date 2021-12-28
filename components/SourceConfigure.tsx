@@ -14,4 +14,5 @@ const SourceConfigure = observer(
     ({ item, isActive, drag }: RenderItemParams<Source>) => {
         const coinFeedStore = useContext(CoinFeedStoreContext);
         return (
-            
+            <Pressable
+                onL
