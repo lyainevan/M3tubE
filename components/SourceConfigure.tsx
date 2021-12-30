@@ -19,4 +19,4 @@ const SourceConfigure = observer(
                     drag();
                     impactAsync(ImpactFeedbackStyle.Light);
                 }}
-        
+                disabled={isActi
