@@ -17,4 +17,6 @@ const SourceConfigure = observer(
             <Pressable
                 onLongPress={() => {
                     drag();
-                    impactAsync(ImpactFeedbackSty
+                    impactAsync(ImpactFeedbackStyle.Light);
+                }}
+        
