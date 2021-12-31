@@ -20,4 +20,6 @@ const SourceConfigure = observer(
                     impactAsync(ImpactFeedbackStyle.Light);
                 }}
                 disabled={isActive}
-                style={st
+                style={styles.listItem}
+            >
+      
