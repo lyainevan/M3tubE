@@ -22,4 +22,4 @@ const SourceConfigure = observer(
                 disabled={isActive}
                 style={styles.listItem}
             >
-      
+                <View style={s
