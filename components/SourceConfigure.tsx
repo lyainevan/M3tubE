@@ -24,4 +24,5 @@ const SourceConfigure = observer(
             >
                 <View style={styles.listItemLeft}>
                     <MaterialCommunityIcons
-                        name="dr
+                        name="drag-horizontal-variant"
+    
