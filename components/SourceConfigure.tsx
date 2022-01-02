@@ -24,4 +24,4 @@ const SourceConfigure = observer(
             >
                 <View style={styles.listItemLeft}>
                     <MaterialCommunityIcons
- 
+                        name="dr
