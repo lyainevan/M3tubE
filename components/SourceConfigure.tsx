@@ -26,4 +26,5 @@ const SourceConfigure = observer(
                     <MaterialCommunityIcons
                         name="drag-horizontal-variant"
                         size={30}
-                        color=
+                        color={Theme.color.gray}
+    
