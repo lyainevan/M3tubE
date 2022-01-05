@@ -27,4 +27,5 @@ const SourceConfigure = observer(
                         name="drag-horizontal-variant"
                         size={30}
                         color={Theme.color.gray}
-    
+                    />
+   
