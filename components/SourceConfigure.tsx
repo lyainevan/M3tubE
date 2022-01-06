@@ -30,4 +30,6 @@ const SourceConfigure = observer(
                     />
                     <SourceImage
                         item={item}
-                        size={
+                        size={48}
+                        style={{
+     
