@@ -32,4 +32,4 @@ const SourceConfigure = observer(
                         item={item}
                         size={48}
                         style={{
-                            margin
+                            marginEnd: Theme.spacing.medium,
