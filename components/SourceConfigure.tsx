@@ -36,4 +36,5 @@ const SourceConfigure = observer(
                             marginStart: Theme.spacing.medium,
                         }}
                     ></SourceImage>
-                    <
+                    <CFText
+                  
