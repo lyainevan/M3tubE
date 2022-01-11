@@ -34,4 +34,5 @@ const SourceConfigure = observer(
                         style={{
                             marginEnd: Theme.spacing.medium,
                             marginStart: Theme.spacing.medium,
+                        }}
                  
