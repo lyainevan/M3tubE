@@ -38,4 +38,5 @@ const SourceConfigure = observer(
                     ></SourceImage>
                     <CFText
                         style={
-                            coinFeedStore.isSourceAct
+                            coinFeedStore.isSourceActive(item)
+                           
