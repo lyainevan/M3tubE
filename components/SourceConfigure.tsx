@@ -37,4 +37,5 @@ const SourceConfigure = observer(
                         }}
                     ></SourceImage>
                     <CFText
-                  
+                        style={
+            
