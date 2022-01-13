@@ -39,4 +39,5 @@ const SourceConfigure = observer(
                     <CFText
                         style={
                             coinFeedStore.isSourceActive(item)
-                           
+                                ? {}
+                         
