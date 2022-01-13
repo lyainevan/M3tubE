@@ -40,4 +40,4 @@ const SourceConfigure = observer(
                         style={
                             coinFeedStore.isSourceActive(item)
                                 ? {}
-                         
+                                : { color: Theme.
