@@ -41,4 +41,5 @@ const SourceConfigure = observer(
                             coinFeedStore.isSourceActive(item)
                                 ? {}
                                 : { color: Theme.color.gray }
-                
+                        }
+                    
