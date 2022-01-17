@@ -45,4 +45,5 @@ const SourceConfigure = observer(
                     >
                         {item.name}
                     </CFText>
-      
+                </View>
+       
