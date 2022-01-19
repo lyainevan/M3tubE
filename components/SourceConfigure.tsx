@@ -47,4 +47,5 @@ const SourceConfigure = observer(
                     </CFText>
                 </View>
                 <Pressable
-                    style=
+                    style={styles.listItemRight}
+              
