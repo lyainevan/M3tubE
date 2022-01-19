@@ -47,4 +47,4 @@ const SourceConfigure = observer(
                     </CFText>
                 </View>
                 <Pressable
-      
+                    style=
