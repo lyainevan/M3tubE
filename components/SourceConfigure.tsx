@@ -48,4 +48,5 @@ const SourceConfigure = observer(
                 </View>
                 <Pressable
                     style={styles.listItemRight}
-              
+                    onPress={() => {
+     
