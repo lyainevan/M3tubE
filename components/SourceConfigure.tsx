@@ -49,4 +49,5 @@ const SourceConfigure = observer(
                 <Pressable
                     style={styles.listItemRight}
                     onPress={() => {
-                        impactAsync(Impa
+                        impactAsync(ImpactFeedbackStyle.Light);
+        
