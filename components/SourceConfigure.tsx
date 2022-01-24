@@ -52,4 +52,5 @@ const SourceConfigure = observer(
                         impactAsync(ImpactFeedbackStyle.Light);
                         coinFeedStore.toggleSourceActivation(item);
                     }}
+                >
          
