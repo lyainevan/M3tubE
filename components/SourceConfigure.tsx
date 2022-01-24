@@ -50,4 +50,6 @@ const SourceConfigure = observer(
                     style={styles.listItemRight}
                     onPress={() => {
                         impactAsync(ImpactFeedbackStyle.Light);
-                        coinFeedStore.toggleSourceActivation(item)
+                        coinFeedStore.toggleSourceActivation(item);
+                    }}
+         
