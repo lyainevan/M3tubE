@@ -53,4 +53,4 @@ const SourceConfigure = observer(
                         coinFeedStore.toggleSourceActivation(item);
                     }}
                 >
-         
+                    {coinFeedStore.
