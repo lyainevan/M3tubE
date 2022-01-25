@@ -54,4 +54,4 @@ const SourceConfigure = observer(
                     }}
                 >
                     {coinFeedStore.isSourceActive(item) ? (
-         
+                        <MaterialCommunit
