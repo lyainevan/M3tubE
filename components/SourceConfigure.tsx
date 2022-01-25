@@ -53,4 +53,5 @@ const SourceConfigure = observer(
                         coinFeedStore.toggleSourceActivation(item);
                     }}
                 >
-                    {coinFeedStore.
+                    {coinFeedStore.isSourceActive(item) ? (
+         
