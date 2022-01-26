@@ -56,4 +56,5 @@ const SourceConfigure = observer(
                     {coinFeedStore.isSourceActive(item) ? (
                         <MaterialCommunityIcons
                             name="minus-circle-outline"
-                         
+                            size={24}
+               
