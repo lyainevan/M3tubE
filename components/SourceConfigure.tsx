@@ -57,4 +57,5 @@ const SourceConfigure = observer(
                         <MaterialCommunityIcons
                             name="minus-circle-outline"
                             size={24}
-                            color={Theme.c
+                            color={Theme.color.gray}
+                        />
