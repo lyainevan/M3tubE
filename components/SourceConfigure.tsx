@@ -62,4 +62,5 @@ const SourceConfigure = observer(
                     ) : (
                         <MaterialIcons
                             name="add-circle-outline"
-                            size=
+                            size={24}
+                            color={T
