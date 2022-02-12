@@ -72,4 +72,4 @@ const SourceConfigure = observer(
     }
 );
 
-c
+const styles = StyleShe
