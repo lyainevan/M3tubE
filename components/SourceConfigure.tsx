@@ -72,4 +72,5 @@ const SourceConfigure = observer(
     }
 );
 
-const styles = StyleShe
+const styles = StyleSheet.create({
+    listItem: {
