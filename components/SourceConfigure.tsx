@@ -74,3 +74,5 @@ const SourceConfigure = observer(
 
 const styles = StyleSheet.create({
     listItem: {
+        width: "100%",
+       
