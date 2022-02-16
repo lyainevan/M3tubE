@@ -79,4 +79,5 @@ const styles = StyleSheet.create({
         justifyContent: "space-between",
     },
     listItemLeft: {
-        flexDire
+        flexDirection: "row",
+        alignItems
