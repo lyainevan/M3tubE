@@ -80,4 +80,5 @@ const styles = StyleSheet.create({
     },
     listItemLeft: {
         flexDirection: "row",
-        alignItems
+        alignItems: "center",
+        paddingTop: 
