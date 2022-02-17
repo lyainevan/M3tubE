@@ -81,4 +81,5 @@ const styles = StyleSheet.create({
     listItemLeft: {
         flexDirection: "row",
         alignItems: "center",
-        paddingTop: 
+        paddingTop: Theme.spacing.medium,
+    
