@@ -85,4 +85,5 @@ const styles = StyleSheet.create({
         paddingBottom: Theme.spacing.medium,
         justifyContent: "flex-start",
     },
-    listIt
+    listItemRight: {
+        jus
