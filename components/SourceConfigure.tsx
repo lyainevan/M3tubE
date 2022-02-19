@@ -83,4 +83,4 @@ const styles = StyleSheet.create({
         alignItems: "center",
         paddingTop: Theme.spacing.medium,
         paddingBottom: Theme.spacing.medium,
-        j
+        justifyContent: "flex-star
