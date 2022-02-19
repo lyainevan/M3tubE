@@ -83,4 +83,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         paddingTop: Theme.spacing.medium,
         paddingBottom: Theme.spacing.medium,
-        justifyContent: "flex-star
+        justifyContent: "flex-start",
+    },
+    listIt
