@@ -86,4 +86,4 @@ const styles = StyleSheet.create({
         justifyContent: "flex-start",
     },
     listItemRight: {
-        jus
+        justifyContent: "center",
