@@ -87,3 +87,7 @@ const styles = StyleSheet.create({
     },
     listItemRight: {
         justifyContent: "center",
+    },
+});
+
+export defa
