@@ -1,1 +1,1 @@
-imp
+import { observer } from "mobx-
