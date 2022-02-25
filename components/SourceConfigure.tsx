@@ -90,4 +90,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export defa
+export default SourceConfigure;
