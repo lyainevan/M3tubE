@@ -6,4 +6,5 @@ import CFText, { CFTypography } from "./CFText";
 import Theme from "../modules/theme";
 import Divider, { DividerType } from "./Divider";
 import { concat } from "ramda";
-import * as WebBrowser from "ex
+import * as WebBrowser from "expo-web-browser";
+import 
