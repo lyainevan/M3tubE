@@ -4,4 +4,5 @@ import React, { useContext } from "react";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 import CFText, { CFTypography } from "./CFText";
 import Theme from "../modules/theme";
-import Divider, { DividerType } from "./Divider
+import Divider, { DividerType } from "./Divider";
+import { concat } from "ramda
