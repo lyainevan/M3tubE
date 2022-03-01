@@ -7,4 +7,5 @@ import Theme from "../modules/theme";
 import Divider, { DividerType } from "./Divider";
 import { concat } from "ramda";
 import * as WebBrowser from "expo-web-browser";
-import HeaderLoader from "./loa
+import HeaderLoader from "./loaders/HeaderLoader";
+import { F
