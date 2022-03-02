@@ -8,4 +8,4 @@ import Divider, { DividerType } from "./Divider";
 import { concat } from "ramda";
 import * as WebBrowser from "expo-web-browser";
 import HeaderLoader from "./loaders/HeaderLoader";
-import { F
+import { Feather } from "@expo/vector-icons
