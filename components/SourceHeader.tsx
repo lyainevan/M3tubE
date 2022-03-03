@@ -10,4 +10,4 @@ import * as WebBrowser from "expo-web-browser";
 import HeaderLoader from "./loaders/HeaderLoader";
 import { Feather } from "@expo/vector-icons";
 import { DrawerScreenProps } from "@react-navigation/drawer";
-import { RootDr
+import { RootDrawerParamList } from "
