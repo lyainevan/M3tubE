@@ -12,4 +12,4 @@ import { Feather } from "@expo/vector-icons";
 import { DrawerScreenProps } from "@react-navigation/drawer";
 import { RootDrawerParamList } from "../App";
 
-const SourceHeader
+const SourceHeader = observer<DrawerScreenProps<
