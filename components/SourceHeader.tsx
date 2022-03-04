@@ -13,4 +13,4 @@ import { DrawerScreenProps } from "@react-navigation/drawer";
 import { RootDrawerParamList } from "../App";
 
 const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
- 
+    ({ navigation, route }) => {
