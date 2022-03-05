@@ -14,4 +14,5 @@ import { RootDrawerParamList } from "../App";
 
 const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
     ({ navigation, route }) => {
-        const { activeSource } = useContext(CoinFeedS
+        const { activeSource } = useContext(CoinFeedStoreContext);
+        cons
