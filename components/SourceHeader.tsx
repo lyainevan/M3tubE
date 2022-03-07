@@ -18,4 +18,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
         const handlePress = () =>
             WebBrowser.openBrowserAsync(toUrl(activeSource?.website || ""));
         if (activeSource) {
-            return
+            return (
+                <View s
