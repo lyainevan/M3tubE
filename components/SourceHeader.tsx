@@ -16,4 +16,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
     ({ navigation, route }) => {
         const { activeSource } = useContext(CoinFeedStoreContext);
         const handlePress = () =>
-            WebBrowser.openBrowserA
+            WebBrowser.openBrowserAsync(toUrl(activeSource?.website
