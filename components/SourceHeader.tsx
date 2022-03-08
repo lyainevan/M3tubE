@@ -19,4 +19,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
             WebBrowser.openBrowserAsync(toUrl(activeSource?.website || ""));
         if (activeSource) {
             return (
-                <View s
+                <View style={styles.container
