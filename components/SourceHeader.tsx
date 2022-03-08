@@ -20,4 +20,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
         if (activeSource) {
             return (
                 <View style={styles.container}>
-                    <View style={styles.headerR
+                    <View style={styles.headerRow}>
+                      
