@@ -22,4 +22,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                 <View style={styles.container}>
                     <View style={styles.headerRow}>
                         <Pressable
-                            onPress={navi
+                            onPress={navigation.openDrawer}
+         
