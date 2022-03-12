@@ -23,4 +23,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                     <View style={styles.headerRow}>
                         <Pressable
                             onPress={navigation.openDrawer}
-         
+                            hitSlop=
