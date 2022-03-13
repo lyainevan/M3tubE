@@ -25,4 +25,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                             onPress={navigation.openDrawer}
                             hitSlop={20}
                             style={{ paddingEnd: 8 }}
- 
+                        >
+    
