@@ -26,4 +26,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                             hitSlop={20}
                             style={{ paddingEnd: 8 }}
                         >
-                            <Feathe
+                            <Feather name="menu" size={30} color=
