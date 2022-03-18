@@ -29,4 +29,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                             <Feather name="menu" size={30} color="white" />
                         </Pressable>
                         <CFText type={CFTypography.H1}>
-                            {active
+                            {activeSource?.name || ""}
+                
