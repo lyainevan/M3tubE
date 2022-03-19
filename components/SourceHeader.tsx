@@ -30,4 +30,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                         </Pressable>
                         <CFText type={CFTypography.H1}>
                             {activeSource?.name || ""}
-                
+                        </CFText>
+            
