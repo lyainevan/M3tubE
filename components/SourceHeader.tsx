@@ -35,4 +35,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                     <Pressable
                         onPress={handlePress}
                         style={StyleSheet.flatten([
-                            sty
+                            styles.headerRow,
+               
