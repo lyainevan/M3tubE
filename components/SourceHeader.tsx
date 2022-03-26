@@ -43,4 +43,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                             {activeSource?.website || ""}
                         </CFText>
                         <Feather
-    
+                            name="ar
