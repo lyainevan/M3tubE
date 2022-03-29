@@ -44,4 +44,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                         </CFText>
                         <Feather
                             name="arrow-up-right"
-            
+                            s
