@@ -45,4 +45,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                         <Feather
                             name="arrow-up-right"
                             size={14}
-                            color={Theme.col
+                            color={Theme.color.gray}
+                 
