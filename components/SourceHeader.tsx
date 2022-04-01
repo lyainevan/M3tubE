@@ -48,4 +48,5 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                             color={Theme.color.gray}
                         />
                     </Pressable>
-                
+                    <Divider
+             
