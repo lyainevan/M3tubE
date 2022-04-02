@@ -49,4 +49,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                         />
                     </Pressable>
                     <Divider
-             
+                        type={DividerType.THIC
