@@ -52,4 +52,6 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                         type={DividerType.THICK}
                         style={{ backgroundColor: activeSource.colorOne }}
                     ></Divider>
-                </V
+                </View>
+            );
+      
