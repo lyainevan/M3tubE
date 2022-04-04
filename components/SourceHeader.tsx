@@ -50,4 +50,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                     </Pressable>
                     <Divider
                         type={DividerType.THICK}
-                        
+                        style={{ backgroundColor: activeSource.colo
