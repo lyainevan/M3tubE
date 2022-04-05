@@ -54,4 +54,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
                     ></Divider>
                 </View>
             );
-        } else return <HeaderLoader st
+        } else return <HeaderLoader style={styles.container}></Heade
