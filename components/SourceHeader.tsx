@@ -58,4 +58,4 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
     }
 );
 
-const toUrl =
+const toUrl = (hostname: string) => concat("
