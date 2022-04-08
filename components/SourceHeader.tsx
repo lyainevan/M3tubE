@@ -63,4 +63,5 @@ const toUrl = (hostname: string) => concat("https://", hostname);
 const styles = StyleSheet.create({
     headerRow: {
         alignItems: "center",
-        alignContent: "ce
+        alignContent: "center",
+        flexDirect
