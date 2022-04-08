@@ -60,4 +60,6 @@ const SourceHeader = observer<DrawerScreenProps<RootDrawerParamList>>(
 
 const toUrl = (hostname: string) => concat("https://", hostname);
 
-const styles = StyleSheet.cr
+const styles = StyleSheet.create({
+    headerRow: {
+       
