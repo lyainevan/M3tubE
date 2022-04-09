@@ -66,4 +66,5 @@ const styles = StyleSheet.create({
         alignContent: "center",
         flexDirection: "row",
     },
-    webs
+    websiteRow: {
+        justifyContent:
