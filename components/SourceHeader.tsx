@@ -68,4 +68,5 @@ const styles = StyleSheet.create({
     },
     websiteRow: {
         justifyContent: "space-between",
-        marg
+        marginTop: Theme.spacing.small,
+       
