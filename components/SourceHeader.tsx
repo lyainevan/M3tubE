@@ -64,4 +64,6 @@ const styles = StyleSheet.create({
     headerRow: {
         alignItems: "center",
         alignContent: "center",
-        flexDirect
+        flexDirection: "row",
+    },
+    webs
