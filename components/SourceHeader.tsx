@@ -67,4 +67,5 @@ const styles = StyleSheet.create({
         flexDirection: "row",
     },
     websiteRow: {
-        justifyContent:
+        justifyContent: "space-between",
+        marg
