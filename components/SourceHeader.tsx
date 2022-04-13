@@ -76,4 +76,7 @@ const styles = StyleSheet.create({
         paddingLeft: Theme.spacing.medium,
         paddingRight: Theme.spacing.medium,
         paddingTop: 88,
- 
+    },
+});
+
+export default Sour
