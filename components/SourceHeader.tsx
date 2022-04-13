@@ -74,4 +74,6 @@ const styles = StyleSheet.create({
     container: {
         width: "100%",
         paddingLeft: Theme.spacing.medium,
-        paddingRight: Theme.spacing.
+        paddingRight: Theme.spacing.medium,
+        paddingTop: 88,
+ 
