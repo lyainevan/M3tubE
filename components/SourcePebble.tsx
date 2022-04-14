@@ -1,1 +1,1 @@
-import { impact
+import { impactAsync, ImpactFeedbackStyle }
