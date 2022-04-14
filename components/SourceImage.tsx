@@ -22,3 +22,14 @@ const SourceImage = observer(
                     uri: toSourceImageUrl(item.name),
                     width: size || 64,
                     height: size || 64,
+                }}
+                {...rest}
+                style={StyleSheet.flatten([
+                    rest.style
+                ])}
+            ></Image>
+        );
+    }
+);
+
+export default SourceImage;
