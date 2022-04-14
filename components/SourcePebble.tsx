@@ -1,2 +1,2 @@
 import { impactAsync, ImpactFeedbackStyle } from "expo-haptics";
-import 
+import { observer } from "mob
