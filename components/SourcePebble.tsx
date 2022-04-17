@@ -3,4 +3,5 @@ import { observer } from "mobx-react-lite";
 import React, { useContext } from "react";
 import { Pressable, StyleSheet, View } from "react-native";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
-import { toSourceImage
+import { toSourceImageUrl } from "../modules/utils";
+imp
