@@ -4,4 +4,4 @@ import React, { useContext } from "react";
 import { Pressable, StyleSheet, View } from "react-native";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 import { toSourceImageUrl } from "../modules/utils";
-imp
+import { Source } from "./
