@@ -5,4 +5,6 @@ import { Pressable, StyleSheet, View } from "react-native";
 import { CoinFeedStoreContext } from "../modules/CoinFeedStore";
 import { toSourceImageUrl } from "../modules/utils";
 import { Source } from "./SourceBuffet";
-import Source
+import SourceImage from "./SourceImage";
+
+con
