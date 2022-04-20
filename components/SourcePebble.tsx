@@ -7,4 +7,4 @@ import { toSourceImageUrl } from "../modules/utils";
 import { Source } from "./SourceBuffet";
 import SourceImage from "./SourceImage";
 
-con
+const Highlight = ({ isActive, col
