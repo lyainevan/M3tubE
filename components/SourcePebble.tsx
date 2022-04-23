@@ -8,4 +8,6 @@ import { Source } from "./SourceBuffet";
 import SourceImage from "./SourceImage";
 
 const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
-    isActive
+    isActive ? (
+        <View
+         
