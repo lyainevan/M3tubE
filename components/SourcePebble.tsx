@@ -11,4 +11,4 @@ const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
     isActive ? (
         <View
             style={StyleSheet.flatten([
- 
+                styles.hi
