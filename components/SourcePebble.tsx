@@ -10,4 +10,5 @@ import SourceImage from "./SourceImage";
 const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
     isActive ? (
         <View
-         
+            style={StyleSheet.flatten([
+ 
