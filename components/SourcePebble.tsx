@@ -14,4 +14,7 @@ const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
                 styles.hightlight,
                 { backgroundColor: color },
             ])}
-        ><
+        ></View>
+    ) : null;
+
+cons
