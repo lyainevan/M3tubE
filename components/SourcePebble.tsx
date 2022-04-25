@@ -12,4 +12,4 @@ const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
         <View
             style={StyleSheet.flatten([
                 styles.hightlight,
-              
+                { backgroundColor: color },
