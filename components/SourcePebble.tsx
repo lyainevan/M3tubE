@@ -13,3 +13,5 @@ const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
             style={StyleSheet.flatten([
                 styles.hightlight,
                 { backgroundColor: color },
+            ])}
+        ><
