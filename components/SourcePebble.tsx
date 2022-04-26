@@ -18,4 +18,5 @@ const Highlight = ({ isActive, color }: { isActive: boolean; color: string }) =>
     ) : null;
 
 const SourcePebble = observer(
-    ({ item, index }: { item: Source; index: number }) => 
+    ({ item, index }: { item: Source; index: number }) => {
+        const coinFeedStore =
