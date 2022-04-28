@@ -22,4 +22,5 @@ const SourcePebble = observer(
         const coinFeedStore = useContext(CoinFeedStoreContext);
         const isActive = coinFeedStore.activeSource?._id === item._id;
 
-  
+        return (
+            <
