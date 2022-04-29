@@ -23,4 +23,5 @@ const SourcePebble = observer(
         const isActive = coinFeedStore.activeSource?._id === item._id;
 
         return (
-            <
+            <Pressable
+             
