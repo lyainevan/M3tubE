@@ -24,4 +24,5 @@ const SourcePebble = observer(
 
         return (
             <Pressable
+                style={
              
