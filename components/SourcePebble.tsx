@@ -25,4 +25,5 @@ const SourcePebble = observer(
         return (
             <Pressable
                 style={
-                    index === coinFeedStore.so
+                    index === coinFeedStore.sourcesCount - 1
+               
