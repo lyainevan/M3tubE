@@ -26,4 +26,4 @@ const SourcePebble = observer(
             <Pressable
                 style={
                     index === coinFeedStore.sourcesCount - 1
-                        ? StyleSheet.compose(
+                        ? StyleSheet.compose(styles.pebbles, styles.l
