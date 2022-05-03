@@ -29,4 +29,5 @@ const SourcePebble = observer(
                         ? StyleSheet.compose(styles.pebbles, styles.lastPebble)
                         : styles.pebbles
                 }
-                onP
+                onPress={(_) => {
+                 
