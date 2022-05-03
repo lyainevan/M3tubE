@@ -28,4 +28,5 @@ const SourcePebble = observer(
                     index === coinFeedStore.sourcesCount - 1
                         ? StyleSheet.compose(styles.pebbles, styles.lastPebble)
                         : styles.pebbles
-            
+                }
+                onP
