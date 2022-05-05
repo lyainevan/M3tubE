@@ -31,4 +31,6 @@ const SourcePebble = observer(
                 }
                 onPress={(_) => {
                     impactAsync(ImpactFeedbackStyle.Light);
-                    coinFeedStore.updateActiveSource
+                    coinFeedStore.updateActiveSource(item);
+                }}
+ 
