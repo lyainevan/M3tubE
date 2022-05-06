@@ -33,4 +33,5 @@ const SourcePebble = observer(
                     impactAsync(ImpactFeedbackStyle.Light);
                     coinFeedStore.updateActiveSource(item);
                 }}
- 
+            >
+           
