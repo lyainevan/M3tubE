@@ -34,4 +34,5 @@ const SourcePebble = observer(
                     coinFeedStore.updateActiveSource(item);
                 }}
             >
-           
+                <Highlight
+                    i
