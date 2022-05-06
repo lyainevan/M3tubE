@@ -35,4 +35,5 @@ const SourcePebble = observer(
                 }}
             >
                 <Highlight
-                    i
+                    isActive={isActive}
+          
