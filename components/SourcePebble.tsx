@@ -38,4 +38,5 @@ const SourcePebble = observer(
                     isActive={isActive}
                     color={item.colorOne}
                 ></Highlight>
-                <SourceImage it
+                <SourceImage item={item}></SourceImage>
+  
