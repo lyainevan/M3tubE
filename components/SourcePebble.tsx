@@ -45,4 +45,5 @@ const SourcePebble = observer(
 );
 
 const styles = StyleSheet.create({
-    pebb
+    pebbles: {
+        marginRi
