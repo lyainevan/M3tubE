@@ -44,4 +44,5 @@ const SourcePebble = observer(
     }
 );
 
-const styles = 
+const styles = StyleSheet.create({
+    pebb
