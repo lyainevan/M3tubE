@@ -40,4 +40,8 @@ const SourcePebble = observer(
                 ></Highlight>
                 <SourceImage item={item}></SourceImage>
             </Pressable>
-        )
+        );
+    }
+);
+
+const styles = 
