@@ -46,4 +46,6 @@ const SourcePebble = observer(
 
 const styles = StyleSheet.create({
     pebbles: {
-        marginRi
+        marginRight: 16,
+        zIndex: 0.5,
+        alig
