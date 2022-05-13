@@ -48,4 +48,6 @@ const styles = StyleSheet.create({
     pebbles: {
         marginRight: 16,
         zIndex: 0.5,
-        alig
+        alignItems: "center",
+    },
+ 
