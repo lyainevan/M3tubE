@@ -50,4 +50,5 @@ const styles = StyleSheet.create({
         zIndex: 0.5,
         alignItems: "center",
     },
- 
+    lastPebble: {
+        marginRight: 0,
