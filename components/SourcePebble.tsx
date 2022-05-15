@@ -54,4 +54,5 @@ const styles = StyleSheet.create({
         marginRight: 0,
     },
     hightlight: {
-   
+        height: 8,
+     
