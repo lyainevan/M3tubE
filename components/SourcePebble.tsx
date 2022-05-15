@@ -52,3 +52,6 @@ const styles = StyleSheet.create({
     },
     lastPebble: {
         marginRight: 0,
+    },
+    hightlight: {
+   
