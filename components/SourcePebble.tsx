@@ -55,4 +55,5 @@ const styles = StyleSheet.create({
     },
     hightlight: {
         height: 8,
-     
+        width: 8,
+        borderRad
