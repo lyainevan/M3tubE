@@ -61,4 +61,6 @@ const styles = StyleSheet.create({
         top: -20,
         left: 28,
     },
-}
+});
+
+export default SourcePe
