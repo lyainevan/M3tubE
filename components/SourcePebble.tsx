@@ -58,4 +58,7 @@ const styles = StyleSheet.create({
         width: 8,
         borderRadius: 8,
         position: "absolute",
-        top: 
+        top: -20,
+        left: 28,
+    },
+}
