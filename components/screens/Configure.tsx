@@ -5,4 +5,5 @@ import { observer } from "mobx-react-lite";
 import React, { useContext } from "react";
 import { CoinFeedStoreContext } from "../../modules/CoinFeedStore";
 import SourceConfigure from "../SourceConfigure";
-import Divider, { DividerTy
+import Divider, { DividerType } from "../Divider";
+import { DrawerScr
