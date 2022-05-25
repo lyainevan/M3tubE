@@ -6,4 +6,4 @@ import React, { useContext } from "react";
 import { CoinFeedStoreContext } from "../../modules/CoinFeedStore";
 import SourceConfigure from "../SourceConfigure";
 import Divider, { DividerType } from "../Divider";
-import { DrawerScr
+import { DrawerScreenProps } from "@react-n
