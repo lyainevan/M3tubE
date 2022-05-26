@@ -7,4 +7,5 @@ import { CoinFeedStoreContext } from "../../modules/CoinFeedStore";
 import SourceConfigure from "../SourceConfigure";
 import Divider, { DividerType } from "../Divider";
 import { DrawerScreenProps } from "@react-navigation/drawer";
-import { RootDrawerParamList }
+import { RootDrawerParamList } from "../../App";
+import Header 
