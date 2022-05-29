@@ -11,4 +11,5 @@ import { RootDrawerParamList } from "../../App";
 import Header from "../Header";
 
 const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
-    ({ route, navigat
+    ({ route, navigation }) => {
+        con
