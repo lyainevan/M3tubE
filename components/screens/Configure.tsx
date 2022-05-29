@@ -10,4 +10,5 @@ import { DrawerScreenProps } from "@react-navigation/drawer";
 import { RootDrawerParamList } from "../../App";
 import Header from "../Header";
 
-const Configure = observer<DrawerScreenProps<RootDrawerParamList>
+const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
+    ({ route, navigat
