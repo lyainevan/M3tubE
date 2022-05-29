@@ -12,4 +12,4 @@ import Header from "../Header";
 
 const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
     ({ route, navigation }) => {
-        con
+        const { sources, replaceSources }
