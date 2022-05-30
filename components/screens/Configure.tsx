@@ -12,4 +12,4 @@ import Header from "../Header";
 
 const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
     ({ route, navigation }) => {
-        const { sources, replaceSources }
+        const { sources, replaceSources } = useContext(CoinFeedStore
