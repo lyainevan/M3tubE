@@ -16,4 +16,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
 
         return (
             <View style={styles.container}>
-                <Head
+                <Header
+              
