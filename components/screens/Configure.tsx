@@ -15,4 +15,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
         const { sources, replaceSources } = useContext(CoinFeedStoreContext);
 
         return (
-            <View style={s
+            <View style={styles.container}>
+                <Head
