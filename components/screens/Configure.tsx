@@ -18,3 +18,4 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
             <View style={styles.container}>
                 <Header
                     primaryText="Manage Sources"
+                    second
