@@ -19,4 +19,4 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                 <Header
                     primaryText="Manage Sources"
                     secondaryText="Drag and drop to rearrange sources."
-      
+                    navig
