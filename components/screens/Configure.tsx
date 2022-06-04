@@ -21,4 +21,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     secondaryText="Drag and drop to rearrange sources."
                     navigation={navigation}
                     route={route}
-                ></
+                ></Header>
+                
