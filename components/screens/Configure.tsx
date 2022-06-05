@@ -22,4 +22,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     navigation={navigation}
                     route={route}
                 ></Header>
-                <DraggableFlatLis
+                <DraggableFlatList
+                    data={sour
