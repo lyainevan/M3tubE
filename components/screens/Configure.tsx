@@ -24,4 +24,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                 ></Header>
                 <DraggableFlatList
                     data={sources}
-                    renderI
+                    renderItem={(prop) => (
+             
