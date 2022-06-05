@@ -23,4 +23,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     route={route}
                 ></Header>
                 <DraggableFlatList
-                    data={sour
+                    data={sources}
+                    renderI
