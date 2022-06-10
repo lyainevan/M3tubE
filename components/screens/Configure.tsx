@@ -26,4 +26,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     data={sources}
                     renderItem={(prop) => (
                         <SourceConfigure {...prop}></SourceConfigure>
+                    )}
      
