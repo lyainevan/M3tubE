@@ -27,4 +27,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     renderItem={(prop) => (
                         <SourceConfigure {...prop}></SourceConfigure>
                     )}
-                    keyExtractor={
+                    keyExtractor={({ name }) => name}
+           
