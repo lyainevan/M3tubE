@@ -28,4 +28,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                         <SourceConfigure {...prop}></SourceConfigure>
                     )}
                     keyExtractor={({ name }) => name}
-                    onDragEnd={({ data }) => replaceSources(da
+                    onDragEnd={({ data }) => replaceSources(data)}
+                    ItemSepara
