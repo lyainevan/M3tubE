@@ -30,4 +30,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     keyExtractor={({ name }) => name}
                     onDragEnd={({ data }) => replaceSources(data)}
                     ItemSeparatorComponent={() => (
-                        <Divider type={DividerType.THIN}
+                        <Divider type={DividerType.THIN}></Divider>
+   
