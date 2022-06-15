@@ -32,4 +32,4 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     ItemSeparatorComponent={() => (
                         <Divider type={DividerType.THIN}></Divider>
                     )}
-           
+                    contentContain
