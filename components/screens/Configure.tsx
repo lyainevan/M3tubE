@@ -31,4 +31,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     onDragEnd={({ data }) => replaceSources(data)}
                     ItemSeparatorComponent={() => (
                         <Divider type={DividerType.THIN}></Divider>
-   
+                    )}
+           
