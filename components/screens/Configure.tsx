@@ -33,4 +33,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                         <Divider type={DividerType.THIN}></Divider>
                     )}
                     contentContainerStyle={styles.list}
-                    showsVerticalScrollIn
+                    showsVerticalScrollIndicator={false}
+                ></
