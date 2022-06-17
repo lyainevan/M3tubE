@@ -38,3 +38,7 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
             </View>
         );
     }
+);
+
+const styles = StyleSheet.create({
+    
