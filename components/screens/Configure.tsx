@@ -35,4 +35,6 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
                     contentContainerStyle={styles.list}
                     showsVerticalScrollIndicator={false}
                 ></DraggableFlatList>
-            <
+            </View>
+        );
+    }
