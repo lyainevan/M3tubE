@@ -41,4 +41,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
 );
 
 const styles = StyleSheet.create({
-    
+    container: {
+        backgro
