@@ -42,4 +42,5 @@ const Configure = observer<DrawerScreenProps<RootDrawerParamList>>(
 
 const styles = StyleSheet.create({
     container: {
-        backgro
+        backgroundColor: Theme.color.dark,
+    
