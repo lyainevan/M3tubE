@@ -44,4 +44,5 @@ const styles = StyleSheet.create({
     container: {
         backgroundColor: Theme.color.dark,
         paddingLeft: Theme.spacing.medium,
-        paddingRight: Th
+        paddingRight: Theme.spacing.medium,
+        flex: 1,
