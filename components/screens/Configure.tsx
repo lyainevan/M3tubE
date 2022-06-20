@@ -46,3 +46,6 @@ const styles = StyleSheet.create({
         paddingLeft: Theme.spacing.medium,
         paddingRight: Theme.spacing.medium,
         flex: 1,
+    },
+    list: {
+        paddi
