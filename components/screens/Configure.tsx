@@ -48,4 +48,8 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     list: {
-        paddi
+        paddingBottom: 200
+    }
+});
+
+export 
