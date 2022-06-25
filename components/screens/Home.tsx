@@ -17,3 +17,26 @@ const Home = observer<DrawerScreenProps<RootDrawerParamList>>(({route, navigatio
     useEffect(() => {
         fetchSourcesFromLocalStorage(coinFeedStore).then(_ => fetchSources(coinFeedStore));
     }, []);
+
+    if (coinFeedStore.activeSource) {
+        return (
+            <CoinFeedStoreContext.Provider value={coinFeedStore}>
+                <View style={styles.container}>
+                    <SourceHeader navigation={navigation} route={route}></SourceHeader>
+                    <SourceArticles></SourceArticles>
+                    <SourceBuffet></SourceBuffet>
+                </View>
+            </CoinFeedStoreContext.Provider>
+        );
+    } else return <AppLoading></AppLoading>;
+});
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: Theme.color.dark,
+        alignItems: "center",
+    },
+});
+
+export default Home;
