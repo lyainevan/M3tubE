@@ -106,3 +106,32 @@ export class CoinFeedStore {
                 ? this.activeSource
                 : this.activeSources[0]
             : this.activeSources[0];
+    }
+
+    updateArticleStore(sourceId: string, articles: ReadonlyArray<CFArticle>) {
+        const sourceArticles = this.articleStore[sourceId] || [];
+
+        this.articleStore[sourceId] = compose(
+            concat(__, sourceArticles),
+            differenceWith(keyComparator<CFArticle, "link">("link"), articles)
+        )(sourceArticles);
+    }
+
+    updateArticleScrollDirection(direction: VerticalScrollDirection) {
+        this.articleScrollDirection = direction;
+    }
+
+    toggleSourceActivation(source: Source) {
+        source.isActive = not(isSourceActive(source));
+        this.postSourceUpdate();
+    }
+
+    postSourceUpdate(oldSources?: Source[]) {
+        if (
+            !oldSources ||
+            JSON.stringify(oldSources) !== JSON.stringify(this.sources)
+        ) {
+            this.updateActiveSource();
+            updateLocalStorage(this);
+        }
+    }
