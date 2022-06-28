@@ -41,3 +41,33 @@ export class CoinFeedStore {
     sources: Source[] = [];
     activeSource?: Source = undefined;
     articleStore: ArticleStore = {};
+
+    articleScrollDirection: VerticalScrollDirection =
+        VerticalScrollDirection.DOWN;
+
+    constructor() {
+        makeAutoObservable(this);
+    }
+
+    get areSourcesLoaded(): boolean {
+        return this.sources && this.sources.length > 0;
+    }
+
+    get sourcesCount(): number {
+        return this.sources.length;
+    }
+
+    get activeSources(): Source[] {
+        return this.sources.filter((source) => source.isActive);
+    }
+
+    get activeArticles(): Array<CFArticle> {
+        return (
+            (this.activeSource && this.articleStore[this.activeSource._id]) ||
+            []
+        );
+    }
+
+    get articleCountForActiveSource(): number {
+        return (this.activeArticles && this.activeArticles.length) || 0;
+    }
