@@ -71,3 +71,38 @@ export class CoinFeedStore {
     get articleCountForActiveSource(): number {
         return (this.activeArticles && this.activeArticles.length) || 0;
     }
+
+    get isSourceActive(): (_: Source) => boolean {
+        return isSourceActive;
+    }
+
+    updateSources(sources: Source[], shouldUpdateLocal: boolean = true) {
+        const oldSources = this.sources;
+        this.sources = compose(
+            concat(this.sources),
+            differenceWith(keyComparator<Source, "_id">("_id"), sources)
+        )(this.sources);
+
+        // Delete the sources not present in the new sources array.
+        const idsToDelete: string[] = compose(map((source: Source) => source._id), differenceWith(keyComparator<Source, "_id">("_id"), this.sources))(sources)
+        this.sources = filter(({ _id }: Source) => !idsToDelete.includes(_id) )(this.sources)
+
+        if (shouldUpdateLocal) this.postSourceUpdate(oldSources);
+        else this.updateActiveSource();
+    }
+
+    replaceSources = (sources: Source[]) => {
+        const oldSources = this.sources;
+        this.sources = sources;
+
+        this.postSourceUpdate(oldSources);
+    };
+
+    updateActiveSource(source?: Source) {
+        this.activeSource = source
+            ? source
+            : this.activeSource
+            ? isSourceActive(this.activeSource)
+                ? this.activeSource
+                : this.activeSources[0]
+            : this.activeSources[0];
