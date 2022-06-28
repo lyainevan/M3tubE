@@ -135,3 +135,24 @@ export class CoinFeedStore {
             updateLocalStorage(this);
         }
     }
+}
+
+const coinFeedStore = new CoinFeedStore();
+
+autorun(() => {
+    console.log(`============================================================`);
+
+    console.log(`List of sources: ${JSON.stringify(coinFeedStore.sources)}`);
+    console.log(`Sources Loaded: ${coinFeedStore.areSourcesLoaded}`);
+    console.log(`Sources Count: ${coinFeedStore.sourcesCount}`);
+    console.log(`Active source: ${JSON.stringify(coinFeedStore.activeSource)}`);
+    console.log(
+        `Articles loaded: ${coinFeedStore.articleCountForActiveSource}`
+    );
+    console.log(
+        `Articles scroll direction: ${coinFeedStore.articleScrollDirection}`
+    );
+});
+
+export const CoinFeedStoreContext = createContext(coinFeedStore);
+export default coinFeedStore;
