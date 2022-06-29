@@ -1,1 +1,1 @@
-export const SERVER_URL = "https:/
+export const SERVER_URL = "https://finscreen-serveless-api.ve
