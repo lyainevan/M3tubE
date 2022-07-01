@@ -1,3 +1,3 @@
 export const SERVER_URL = "https://finscreen-serveless-api.vercel.app";
 export const SOURCE_IMAGE_DIR = "sourceImages";
-export c
+export const SOURCES_API = "/api/so
