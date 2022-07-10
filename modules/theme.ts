@@ -10,3 +10,6 @@ const Theme = {
         medium: 24,
         large: 32
     }
+};
+
+export default Theme;
