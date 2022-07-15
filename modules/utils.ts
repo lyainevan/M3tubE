@@ -10,4 +10,6 @@ import {
     map,
     assoc,
     lensProp,
-  
+    view,
+} from "ramda";
+import
