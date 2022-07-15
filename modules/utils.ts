@@ -4,4 +4,7 @@ import {
     join,
     append,
     split,
+    toLower,
+    concat,
+    __,
   
