@@ -7,4 +7,7 @@ import {
     toLower,
     concat,
     __,
+    map,
+    assoc,
+    lensProp,
   
