@@ -13,4 +13,5 @@ import {
     view,
 } from "ramda";
 import { Source } from "../components/SourceBuffet";
-import { CoinFeedStore } from "./CoinFeedStor
+import { CoinFeedStore } from "./CoinFeedStore";
+import AsyncStorage from "
