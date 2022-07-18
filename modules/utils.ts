@@ -13,4 +13,4 @@ import {
     view,
 } from "ramda";
 import { Source } from "../components/SourceBuffet";
-import { C
+import { CoinFeedStore } from "./CoinFeedStor
