@@ -16,4 +16,5 @@ import { Source } from "../components/SourceBuffet";
 import { CoinFeedStore } from "./CoinFeedStore";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import {
-    ARTICLE
+    ARTICLES_API,
+    LOCAL_STORAGE_KEY,
