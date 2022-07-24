@@ -24,4 +24,7 @@ import {
 } from "./constants";
 
 export interface CFLocalData {
-    sour
+    sources: Source[];
+}
+
+// @
