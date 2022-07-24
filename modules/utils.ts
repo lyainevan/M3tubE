@@ -23,4 +23,5 @@ import {
     SOURCE_IMAGE_DIR,
 } from "./constants";
 
-export interf
+export interface CFLocalData {
+    sour
