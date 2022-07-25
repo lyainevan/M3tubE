@@ -28,4 +28,5 @@ export interface CFLocalData {
 }
 
 // @ts-ignore
-export const toSourceImageUrl: (name: string) => string =
+export const toSourceImageUrl: (name: string) => string = compose(
+    join("/"),
