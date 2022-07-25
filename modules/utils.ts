@@ -28,4 +28,4 @@ export interface CFLocalData {
 }
 
 // @ts-ignore
-export const toSourceImageUrl:
+export const toSourceImageUrl: (name: string) => string =
