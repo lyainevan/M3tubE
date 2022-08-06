@@ -32,4 +32,7 @@ export const toSourceImageUrl: (name: string) => string = compose(
     join("/"),
     // @ts-ignore
     append(__, [SERVER_URL, SOURCE_IMAGE_DIR]),
-    concat(__, ".png
+    concat(__, ".png"),
+    join("-"),
+    split(" "),
+ 
