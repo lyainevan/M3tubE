@@ -38,4 +38,5 @@ export const toSourceImageUrl: (name: string) => string = compose(
     toLower
 );
 
-export const SOURCES_URL = concat(SERVER_URL, S
+export const SOURCES_URL = concat(SERVER_URL, SOURCES_API);
+export const ARTICL
