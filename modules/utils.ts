@@ -35,4 +35,7 @@ export const toSourceImageUrl: (name: string) => string = compose(
     concat(__, ".png"),
     join("-"),
     split(" "),
- 
+    toLower
+);
+
+export
