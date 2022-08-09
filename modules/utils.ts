@@ -39,4 +39,6 @@ export const toSourceImageUrl: (name: string) => string = compose(
 );
 
 export const SOURCES_URL = concat(SERVER_URL, SOURCES_API);
-export const ARTICLES_URL = concat(SERVER_URL, ARTICL
+export const ARTICLES_URL = concat(SERVER_URL, ARTICLES_API);
+
+export const toRelative
