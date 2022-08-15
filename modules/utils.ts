@@ -41,4 +41,5 @@ export const toSourceImageUrl: (name: string) => string = compose(
 export const SOURCES_URL = concat(SERVER_URL, SOURCES_API);
 export const ARTICLES_URL = concat(SERVER_URL, ARTICLES_API);
 
-export const toRelativeTime = (pubDate: string) =
+export const toRelativeTime = (pubDate: string) =>
+    formatDistanceToNow
