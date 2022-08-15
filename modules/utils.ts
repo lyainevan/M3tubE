@@ -44,4 +44,7 @@ export const ARTICLES_URL = concat(SERVER_URL, ARTICLES_API);
 export const toRelativeTime = (pubDate: string) =>
     formatDistanceToNow(new Date(pubDate), {
         includeSeconds: true,
-        
+        addSuffix: true,
+    });
+
+export c
