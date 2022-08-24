@@ -48,4 +48,5 @@ export const toRelativeTime = (pubDate: string) =>
     });
 
 export const fetchSources = async (coinFeedStore: CoinFeedStore) => {
-  
+    try {
+        const response = a
