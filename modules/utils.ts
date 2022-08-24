@@ -52,4 +52,5 @@ export const fetchSources = async (coinFeedStore: CoinFeedStore) => {
         const response = await fetch(SOURCES_URL);
         const sources = await response.json();
         normalizeAndUpdateSources(sources, coinFeedStore);
-    } catc
+    } catch (error) {
+        conso
