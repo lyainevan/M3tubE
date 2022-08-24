@@ -53,4 +53,4 @@ export const fetchSources = async (coinFeedStore: CoinFeedStore) => {
         const sources = await response.json();
         normalizeAndUpdateSources(sources, coinFeedStore);
     } catch (error) {
-        conso
+        console.error(`Error o
