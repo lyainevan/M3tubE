@@ -59,4 +59,6 @@ export const fetchSources = async (coinFeedStore: CoinFeedStore) => {
 
 export const fetchSourcesFromLocalStorage = async (
     coinFeedStore: CoinFeedStore
-)
+) => {
+    try {
+        cons
