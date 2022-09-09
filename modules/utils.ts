@@ -57,4 +57,5 @@ export const fetchSources = async (coinFeedStore: CoinFeedStore) => {
     }
 };
 
-export const fetchSourcesFromLocalSto
+export const fetchSourcesFromLocalStorage = async (
+    coinFeed
