@@ -61,4 +61,5 @@ export const fetchSourcesFromLocalStorage = async (
     coinFeedStore: CoinFeedStore
 ) => {
     try {
-        const localData = await AsyncStorage.getItem(LOCA
+        const localData = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
+ 
