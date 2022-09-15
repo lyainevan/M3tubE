@@ -62,4 +62,5 @@ export const fetchSourcesFromLocalStorage = async (
 ) => {
     try {
         const localData = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
-        const sources = local
+        const sources = localData
+            ? 
