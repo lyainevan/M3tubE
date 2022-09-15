@@ -63,4 +63,6 @@ export const fetchSourcesFromLocalStorage = async (
     try {
         const localData = await AsyncStorage.getItem(LOCAL_STORAGE_KEY);
         const sources = localData
-            ? compose(view(lensProp("sources")), JSON.parse)(localD
+            ? compose(view(lensProp("sources")), JSON.parse)(localData)
+            : [];
+     
