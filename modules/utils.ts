@@ -65,4 +65,4 @@ export const fetchSourcesFromLocalStorage = async (
         const sources = localData
             ? compose(view(lensProp("sources")), JSON.parse)(localData)
             : [];
-            console.log(`Sources fetc
+            console.log(`Sources fetched from local storage: ${l
