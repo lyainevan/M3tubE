@@ -67,4 +67,5 @@ export const fetchSourcesFromLocalStorage = async (
             : [];
             console.log(`Sources fetched from local storage: ${localData}`)
         coinFeedStore.updateSources(sources, false);
-    } catch (error) 
+    } catch (error) {
+        console.error(
