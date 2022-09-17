@@ -66,4 +66,5 @@ export const fetchSourcesFromLocalStorage = async (
             ? compose(view(lensProp("sources")), JSON.parse)(localData)
             : [];
             console.log(`Sources fetched from local storage: ${localData}`)
-        coinFeedStore.updateSources(sources, f
+        coinFeedStore.updateSources(sources, false);
+    } catch (error) 
