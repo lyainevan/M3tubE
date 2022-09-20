@@ -76,4 +76,5 @@ export const fetchSourcesFromLocalStorage = async (
 
 export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
     try {
-        const coinFeedLocalData = 
+        const coinFeedLocalData = compose(
+            JSON.s
