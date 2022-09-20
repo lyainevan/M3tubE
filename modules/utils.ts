@@ -74,4 +74,4 @@ export const fetchSourcesFromLocalStorage = async (
     }
 };
 
-export const updateLocalStorage = a
+export const updateLocalStorage = async (coinFeedStore: CoinFe
