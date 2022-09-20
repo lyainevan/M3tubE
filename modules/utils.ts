@@ -71,4 +71,7 @@ export const fetchSourcesFromLocalStorage = async (
         console.error(
             `Error occured while fetching sources from the local storage: ${error}`
         );
-    
+    }
+};
+
+export const updateLocalStorage = a
