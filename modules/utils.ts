@@ -79,3 +79,4 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
         const coinFeedLocalData = compose(
             JSON.stringify,
             assoc("sources", __, {}),
+            view(lensProp<CoinFee
