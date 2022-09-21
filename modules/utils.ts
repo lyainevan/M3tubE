@@ -78,4 +78,4 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
     try {
         const coinFeedLocalData = compose(
             JSON.stringify,
-            asso
+            assoc("sources", __, {}),
