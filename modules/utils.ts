@@ -81,4 +81,4 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
             assoc("sources", __, {}),
             view(lensProp<CoinFeedStore>("sources"))
         )(coinFeedStore);
-        await AsyncStorage.se
+        await AsyncStorage.setItem(LOCAL_STORAGE_KEY, coi
