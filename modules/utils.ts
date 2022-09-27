@@ -87,3 +87,5 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
         console.error(`Error while updating the local storage data: ${error}`);
     }
 };
+
+const normalizeAndUpdateSo
