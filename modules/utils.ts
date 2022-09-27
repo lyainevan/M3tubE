@@ -84,4 +84,6 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
         await AsyncStorage.setItem(LOCAL_STORAGE_KEY, coinFeedLocalData);
         console.log(`Local storage updated: ${coinFeedLocalData}`);
     } catch (error) {
-        console.error(`Error while updating the local storage dat
+        console.error(`Error while updating the local storage data: ${error}`);
+    }
+};
