@@ -89,4 +89,5 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
 };
 
 const normalizeAndUpdateSources = (
-    sources: So
+    sources: Source[],
+    coinFeedStore: CoinFe
