@@ -88,4 +88,5 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
     }
 };
 
-const normalizeAndUpdateSo
+const normalizeAndUpdateSources = (
+    sources: So
