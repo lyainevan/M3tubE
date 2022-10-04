@@ -92,4 +92,6 @@ const normalizeAndUpdateSources = (
     sources: Source[],
     coinFeedStore: CoinFeedStore
 ) => {
-    if (!sources.le
+    if (!sources.length) return;
+    compose(
+        coinFe
