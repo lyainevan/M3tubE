@@ -94,4 +94,4 @@ const normalizeAndUpdateSources = (
 ) => {
     if (!sources.length) return;
     compose(
-        coinFe
+        coinFeedStore.updateSources.bin
