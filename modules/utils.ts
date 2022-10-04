@@ -90,4 +90,6 @@ export const updateLocalStorage = async (coinFeedStore: CoinFeedStore) => {
 
 const normalizeAndUpdateSources = (
     sources: Source[],
-    coinFeedStore: CoinFe
+    coinFeedStore: CoinFeedStore
+) => {
+    if (!sources.le
