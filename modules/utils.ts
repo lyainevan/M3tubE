@@ -96,3 +96,6 @@ const normalizeAndUpdateSources = (
     compose(
         coinFeedStore.updateSources.bind(coinFeedStore),
         map<Source, Source>(assoc("isActive", true))
+    )(sources);
+};
+
