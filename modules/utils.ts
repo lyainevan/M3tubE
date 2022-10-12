@@ -99,3 +99,5 @@ const normalizeAndUpdateSources = (
     )(sources);
 };
 
+/**
+ * A curried function that re
