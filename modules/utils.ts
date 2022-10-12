@@ -100,4 +100,4 @@ const normalizeAndUpdateSources = (
 };
 
 /**
- * A curried function that re
+ * A curried function that returns a comparator for objects of
