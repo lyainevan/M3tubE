@@ -103,4 +103,5 @@ const normalizeAndUpdateSources = (
  * A curried function that returns a comparator for objects of type T.
  * @param key a valid key in type T
  * @returns a comparator function that compares the key K
- *
+ */
+export function keyCompara
