@@ -105,4 +105,4 @@ const normalizeAndUpdateSources = (
  * @returns a comparator function that compares the key K
  */
 export function keyComparator<T, K extends keyof T>(key: K) {
-   
+    return (x: T, y: T)
