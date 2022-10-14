@@ -104,4 +104,5 @@ const normalizeAndUpdateSources = (
  * @param key a valid key in type T
  * @returns a comparator function that compares the key K
  */
-export function keyCompara
+export function keyComparator<T, K extends keyof T>(key: K) {
+   
