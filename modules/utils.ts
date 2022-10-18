@@ -108,4 +108,5 @@ export function keyComparator<T, K extends keyof T>(key: K) {
     return (x: T, y: T) => x[key] === y[key];
 }
 
-export const peek = <T>(x: T):
+export const peek = <T>(x: T): T => {
+    console.log(`Peek
