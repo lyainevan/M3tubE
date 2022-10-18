@@ -109,4 +109,5 @@ export function keyComparator<T, K extends keyof T>(key: K) {
 }
 
 export const peek = <T>(x: T): T => {
-    console.log(`Peek
+    console.log(`Peeking at value: ${x}`);
+    r
