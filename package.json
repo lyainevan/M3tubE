@@ -10,4 +10,4 @@
     "eject": "expo eject"
   },
   "dependencies": {
-    "@react-native-asyn
+    "@react-native-async-storage/async-storage": "~1.15.0",
