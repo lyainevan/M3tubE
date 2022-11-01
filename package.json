@@ -12,4 +12,5 @@
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.15.0",
     "@react-navigation/drawer": "^6.3.1",
-    "@react-navigation/nat
+    "@react-navigation/native": "^6.0.8",
+    "
