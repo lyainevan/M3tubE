@@ -23,4 +23,5 @@
     "expo-web-browser": "~10.1.0",
     "mobx": "^6.3.13",
     "mobx-react-lite": "^3.2.3",
-    "react": 
+    "react": "17.0.1",
+    "react-conte
