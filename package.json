@@ -27,4 +27,4 @@
     "react-content-loader": "^6.1.0",
     "react-dom": "17.0.1",
     "react-native": "0.64.3",
-    "react-nati
+    "react-native-draggable-flatlist": "^3.0.6",
