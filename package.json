@@ -24,4 +24,5 @@
     "mobx": "^6.3.13",
     "mobx-react-lite": "^3.2.3",
     "react": "17.0.1",
-    "react-conte
+    "react-content-loader": "^6.1.0",
+    "r
