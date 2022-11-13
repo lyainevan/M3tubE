@@ -39,4 +39,5 @@
     "@babel/core": "^7.12.9",
     "@types/ramda": "^0.27.64",
     "@types/react": "~17.0.21",
-    "@types/react-native
+    "@types/react-native": "~0.64.12",
+    "ramda": 
