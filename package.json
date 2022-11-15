@@ -43,4 +43,5 @@
     "ramda": "^0.28.0",
     "typescript": "~4.3.5"
   },
-  "private": 
+  "private": true
+}
