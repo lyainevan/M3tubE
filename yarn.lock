@@ -1321,3 +1321,33 @@
     debug "^4.3.2"
     getenv "^1.0.0"
     sucrase "^3.20.0"
+
+"@expo/plist@0.0.15":
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/@expo/plist/-/plist-0.0.15.tgz#41ef37b7bbe6b81c48bf4a5c359661c766bb9e90"
+  integrity sha512-LDxiS0KNZAGJu4fIJhbEKczmb+zeftl1NU0LE0tj0mozoMI5HSKdMUchgvnBm35bwBl8ekKkAfJJ0ONxljWQjQ==
+  dependencies:
+    "@xmldom/xmldom" "~0.7.0"
+    base64-js "^1.2.3"
+    xmlbuilder "^14.0.0"
+
+"@expo/plist@0.0.17":
+  version "0.0.17"
+  resolved "https://registry.yarnpkg.com/@expo/plist/-/plist-0.0.17.tgz#0f6c594e116f45a28f5ed20998dadb5f3429f88b"
+  integrity sha512-5Ul3d/YOYE6mfum0jCE25XUnkKHZ5vGlU/X2275ZmCtGrpRn1Fl8Nq+jQKSaks3NqTfxdyXROi/TgH8Zxeg2wg==
+  dependencies:
+    "@xmldom/xmldom" "~0.7.0"
+    base64-js "^1.2.3"
+    xmlbuilder "^14.0.0"
+
+"@expo/prebuild-config@^3.0.15":
+  version "3.0.18"
+  resolved "https://registry.yarnpkg.com/@expo/prebuild-config/-/prebuild-config-3.0.18.tgz#5eb0358edc0173e9809f515cc1a280c48943cc73"
+  integrity sha512-Eyb+HJCsxYba2sWlDi3rqXWQ3jDjN41rSiYmvApY121Zqdrrj/384ntHZh6cbz0LWPeHXjPZBM3SDbK0ri9FTw==
+  dependencies:
+    "@expo/config" "6.0.18"
+    "@expo/config-plugins" "4.0.18"
+    "@expo/config-types" "^44.0.0"
+    "@expo/image-utils" "0.3.18"
+    "@expo/json-file" "8.2.34"
+    debug "^4.3.1"
