@@ -3708,3 +3708,19 @@ jest-validate@^26.5.2:
     jest-get-type "^26.3.0"
     leven "^3.1.0"
     pretty-format "^26.6.2"
+
+jest-worker@^26.0.0, jest-worker@^26.6.2:
+  version "26.6.2"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-26.6.2.tgz#7f72cbc4d643c365e27b9fd775f9d0eaa9c7a8ed"
+  integrity sha512-KWYVV1c4i+jbMpaBC+U++4Va0cp8OisU185o73T1vo99hqi7w8tSJfUXYswwqqrjzwxa6KpRK54WhPvwf5w6PQ==
+  dependencies:
+    "@types/node" "*"
+    merge-stream "^2.0.0"
+    supports-color "^7.0.0"
+
+jetifier@^1.6.2:
+  version "1.6.8"
+  resolved "https://registry.yarnpkg.com/jetifier/-/jetifier-1.6.8.tgz#e88068697875cbda98c32472902c4d3756247798"
+  integrity sha512-3Zi16h6L5tXDRQJTb221cnRoVG9/9OvreLdLU2/ZjRv/GILL+2Cemt0IKvkowwkDpvouAU1DQPOJ7qaiHeIdrw==
+
+jimp-compact@0.16.1:
